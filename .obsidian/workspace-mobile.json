@@ -1,37 +1,52 @@
 {
   "main": {
-    "id": "0776362817d5b9be",
+    "id": "bbc76071e6d1db10",
     "type": "split",
     "children": [
       {
-        "id": "6bbaf6666006a240",
+        "id": "5dba6fef2ca3bbad",
         "type": "tabs",
         "children": [
           {
-            "id": "168d57b5d1201cbf",
+            "id": "4fb47bc1b33d3f7f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Diary/12.29.2024.md",
+                "file": "Travel.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12.29.2024"
+              "title": "Travel"
+            }
+          },
+          {
+            "id": "0533999329b37292",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Germany/Berlin.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Berlin"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "a18bb90a403ebff3",
+    "id": "8d6e658142ec07f8",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "0ebe91c999d907da",
+        "id": "8a06e04d701f8240",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -43,7 +58,7 @@
         }
       },
       {
-        "id": "ea99fb2eaa8ebe3a",
+        "id": "55e73b36449216f6",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -60,7 +75,7 @@
         }
       },
       {
-        "id": "d7e7c7c177d28b16",
+        "id": "bf0b699ac84ac85a",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -73,7 +88,7 @@
         }
       },
       {
-        "id": "ceaee4ccf6183297",
+        "id": "fc7cd9b990b3489b",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -86,16 +101,17 @@
     "currentTab": 0
   },
   "right": {
-    "id": "c2e7b3bcda738ad0",
+    "id": "6cb871dd5371d379",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "72e46b7ba38a1a91",
+        "id": "9b21e851f943203f",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "collapseAll": false,
+            "file": "Czech Republic/Buy.md",
+            "collapseAll": true,
             "extraContext": false,
             "sortOrder": "alphabetical",
             "showSearch": false,
@@ -108,11 +124,12 @@
         }
       },
       {
-        "id": "784ff69d8e95a452",
+        "id": "9ef377b43ae18d4b",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "Czech Republic/Buy.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -121,13 +138,25 @@
         }
       },
       {
-        "id": "ca7de62e762913c9",
+        "id": "e87b4db50de2778d",
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {},
+          "state": {
+            "file": "Czech Republic/Buy.md"
+          },
           "icon": "lucide-list",
           "title": "Outline"
+        }
+      },
+      {
+        "id": "8af33166e046218d",
+        "type": "leaf",
+        "state": {
+          "type": "git-view",
+          "state": {},
+          "icon": "git-pull-request",
+          "title": "Source Control"
         }
       }
     ],
@@ -144,16 +173,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "168d57b5d1201cbf",
+  "active": "0533999329b37292",
   "lastOpenFiles": [
-    "Germany/Berlin.md",
-    "Daily Diary/12.29.2024.md",
-    "Daily Diary",
-    "Untitled.md",
     "Travel.md",
     "Germany",
+    "Germany/Berlin.md",
+    "/Germany/Berlin.md",
+    "/Germany",
     "README.md",
-    "Czech Republic",
-    "Czech Republic/Buy.md"
+    "Czech Republic/Buy.md",
+    "Czech Republic"
   ]
 }
