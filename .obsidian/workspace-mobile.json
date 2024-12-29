@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Germany/Berlin.md",
+                "file": "Daily Diary/12.29.2024.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Berlin"
+              "title": "12.29.2024"
             }
           }
         ]
@@ -146,8 +146,11 @@
   },
   "active": "168d57b5d1201cbf",
   "lastOpenFiles": [
-    "Travel.md",
     "Germany/Berlin.md",
+    "Daily Diary/12.29.2024.md",
+    "Daily Diary",
+    "Untitled.md",
+    "Travel.md",
     "Germany",
     "README.md",
     "Czech Republic",
