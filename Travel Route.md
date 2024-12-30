@@ -40,6 +40,8 @@ Zurich, Switzerland, Mon Jan 27, Wed Jan 29 8:40, panoramic car to ljubljana ðŸ™
 
 Ljubljana, Slovenia, Wed Jan 29 22:15, Sat Feb 1 8:55,
 
+could fly here
+
 --Zagreb, Croatia, Sat Feb 1 12:03, Mon Feb 3,
 
 --Sarajevo, Bosnia, Mon Feb 3, Thu Feb 6,
