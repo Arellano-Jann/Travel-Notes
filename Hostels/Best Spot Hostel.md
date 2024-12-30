@@ -1,0 +1,1 @@
+This hostel was in [[Prague]]
