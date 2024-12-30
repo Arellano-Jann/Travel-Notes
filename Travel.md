@@ -40,11 +40,11 @@ Zurich, Switzerland, Mon Jan 27, Wed Jan 29 8:40, panoramic car to ljubljana ðŸ™
 
 Ljubljana, Slovenia, Wed Jan 29 22:15, Sat Feb 1 8:55,
 
-Zagreb, Croatia, Sat Feb 1 12:03, Mon Feb 3,
+--Zagreb, Croatia, Sat Feb 1 12:03, Mon Feb 3,
 
-Sarajevo, Bosnia, Mon Feb 3, Thu Feb 6,
+--Sarajevo, Bosnia, Mon Feb 3, Thu Feb 6,
 
-Mostar, Bosnia, Thu Feb 6, Fri Feb 7, supposedly a cool train ride from sarajevo
+--Mostar, Bosnia, Thu Feb 6, Fri Feb 7, supposedly a cool train ride from sarajevo
 
 Athens, Greece, Fri Feb 7, Tue Feb 11, you can go across the island w interrail
 
