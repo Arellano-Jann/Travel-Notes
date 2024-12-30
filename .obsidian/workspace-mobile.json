@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Germany/Berlin.md",
+                "file": "People/The Italian Chinese - Natalie, Richard, Penelope.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Berlin"
+              "title": "The Italian Chinese - Natalie, Richard, Penelope"
             }
           }
         ],
@@ -175,9 +175,13 @@
   },
   "active": "0533999329b37292",
   "lastOpenFiles": [
+    "People/Yang.md",
+    "People/The Italian Chinese - Natalie, Richard, Penelope.md",
+    "People.md",
+    "People",
+    "Germany/Berlin.md",
     "Travel.md",
     "Germany",
-    "Germany/Berlin.md",
     "/Germany/Berlin.md",
     "/Germany",
     "README.md",
