@@ -54,3 +54,9 @@ the other 8k will be for safety precautions but we will hope that we dont need t
 
 
 17.6k - Japan (4789 + 850 + 4000 + 8000 = tuition + programFee + housing6month + personalCosts)
+
+
+So, I have 12k allocated for Travel period. This includes the 4.8k for Japans tuition and 1k for Stats.
+I also have 7k allocated for the Japan travel.
+I have 3.7k allocated for after Japan travel.
+This brings me to have about 14k left (without tax refund incl)
