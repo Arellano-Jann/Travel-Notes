@@ -1,4 +1,5 @@
-> [!What’s this place known for?]
+
+> [!What is this place? What’s this place known for? What do people usually do here?]
 
 > [!How do you feel about it? Likes? Dislikes?]
 
