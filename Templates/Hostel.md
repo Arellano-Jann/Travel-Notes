@@ -1,3 +1,5 @@
+> [!Entrance?]
+
 > [!Who did you meet here?]
 
 > [!What’s the hostel like? Likes? Dislikes? Clean?]
