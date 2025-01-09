@@ -1,3 +1,29 @@
 {
-  "promptDelete": false
+  "promptDelete": false,
+  "mobileToolbarCommands": [
+    "editor:insert-embed",
+    "editor:insert-tag",
+    "editor:attach-file",
+    "editor:set-heading",
+    "editor:toggle-strikethrough",
+    "editor:toggle-highlight",
+    "editor:toggle-code",
+    "editor:toggle-blockquote",
+    "editor:insert-link",
+    "editor:toggle-checklist-status",
+    "editor:indent-list",
+    "editor:unindent-list",
+    "editor:undo",
+    "editor:redo",
+    "editor:configure-toolbar",
+    "editor:insert-horizontal-rule",
+    "editor:swap-line-up",
+    "editor:swap-line-down",
+    "editor:context-menu"
+  ],
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "newLinkFormat": "absolute",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./"
 }
