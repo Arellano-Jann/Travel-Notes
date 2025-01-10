@@ -1,6 +1,9 @@
 {
   "promptDelete": false,
   "mobileToolbarCommands": [
+    "editor:undo",
+    "editor:redo",
+    "editor:context-menu",
     "editor:insert-embed",
     "editor:insert-tag",
     "editor:attach-file",
@@ -13,18 +16,15 @@
     "editor:toggle-checklist-status",
     "editor:indent-list",
     "editor:unindent-list",
-    "editor:undo",
-    "editor:redo",
-    "editor:configure-toolbar",
     "editor:insert-horizontal-rule",
     "editor:swap-line-up",
     "editor:swap-line-down",
-    "editor:context-menu"
+    "editor:configure-toolbar"
   ],
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
   "newLinkFormat": "absolute",
   "showUnsupportedFiles": true,
-  "attachmentFolderPath": "./",
+  "attachmentFolderPath": "Ignored",
   "trashOption": "none"
 }
