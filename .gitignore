@@ -5,5 +5,9 @@
 .obsidian/workspace-mobile
 
 .trash/
+.trash/*
+
+.space/
+.space/*
 
 Ignored/
