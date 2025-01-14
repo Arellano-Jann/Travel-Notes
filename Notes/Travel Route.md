@@ -1,4 +1,4 @@
-![![Notes/#*Table]]
+[![Notes/#*Table]]
 So, we have around 14 days, until Feb 15, to arrive in Turkey. This is around 4/5/6 cities
 Between Bucharest and Sofia, I’d pick Bucharest. However, if Bucharest doesn’t fit, then definitely do Sofia.
 We also need to start booking my flights.
@@ -8,7 +8,7 @@ Route 3 (3) - Fly into Bucharest, Sofia, Istanbul
 Route 4 (3) - Athens, Thessaloniki, Istanbul
 Route 5 (4) - Athens, Thessaloniki, (Strimon, Kulata, Sofia), Istanbul
 Depending on the route we take, we will have extra interrail passes left over. Thus, do not be wary of wasting a pass day.
-We have to decide on which route we’ll take based on what Yang says. Optimally, we meet in Istanbul but I do want to do Greece with her. Furthermore, the best option seems to be Route 1 or 2 which both use 4/3 pass days respectfully.
+We have to decide on which route we’ll take based on what Yang says. Optimally, we 0meet in Istanbul but I do want to do Greece with her. Furthermore, the best option seems to be Route 1 or 2 which both use 4/3 pass days respectfully.
 
 
 City, Country, Start, End, Nights, Notes
