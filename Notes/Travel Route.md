@@ -1,10 +1,17 @@
 [![Notes/#*Table]]
+
+
+| City | Country | Start | End | Notes |
+| ---- | ------- | ----- | --- | ----- |
+|      |         |       |     |       |
+
+
 So, we have around 14 days, until Feb 15, to arrive in Turkey. This is around 4/5/6 cities
 Between Bucharest and Sofia, I’d pick Bucharest. However, if Bucharest doesn’t fit, then definitely do Sofia.
 We also need to start booking my flights.
 Route 1 (5) - Fly into Athens, Train to Thessaloniki, Skopje, Sofia, Istanbul
 Route 2 (5) - Fly into Beograd, Skopje, Athens, Thessaloniki, Istanbul 
-Route 3 (3) - Fly into Bucharest, Sofia, Istanbul
+Route 3 (3)2 - Fly into Bucharest, Sofia, Istanbul
 Route 4 (3) - Athens, Thessaloniki, Istanbul
 Route 5 (4) - Athens, Thessaloniki, (Strimon, Kulata, Sofia), Istanbul
 Depending on the route we take, we will have extra interrail passes left over. Thus, do not be wary of wasting a pass day.
@@ -22,11 +29,11 @@ Vienna, Austria, Mon Dec 30 10:49, Fri Jan 3 7:45, Vienna New Year
 Bratislava, Slovakia, Fri Jan 3 8:44, Sat Jan 4 5:58, Could do 2 days here and shave Vienna if wanted
 Krakow, Poland, Sat Jan 4 11:53, Tue Jan 7 23:30, 
 Lyiv, Ukraine, Wed Jan 8 7:00, Fri Jan 10 13:30
-Krakow, Poland, Fri Jan 10 20:30, Sat Jan 11/Sun Jan 12, I think we have to bus from here
-Kaunas, Lithuania, Sun Jan 12, S Jan 11, stopover here. can eat?
-Riga, Letonia, Sat Jan 11, Mon Jan 13,
-Tallinn, Estonia, Mon Jan 13, Wed Jan 15
-Helsinki, Finland, Wed Jan 15, Fri Jan 17, Art center is sick + ferry ride
+Krakow, Poland, Fri Jan 10 20:30, Sun Jan 12 4:00, TGLink Train
+Kaunas, Lithuania, Sun Jan 12 16:00, Tue Jan 14 5:55, 
+Riga, Letonia, Tue Jan 14 9:55, Tue Jan 14 17:30, 
+Tallinn, Estonia, Tue Jan 14 21:50, Thurs Jan 16 7:00
+Helsinki, Finland, Thurs Jan 16 9:30, Thurs Jan 16 , Art center is sick + ferry ride
 Stockholm, Sweden, Fri Jan 17, Sun Jan 19 8:34, Super long ferry 18h
 Gothenburg, Sweden, Sun Jan 19 11:35, Wed Jan 22 7:40, fav swede town
 Copenhagen, Denmark, Wed Jan 22 11:29, Sat Jan 25, fly out here
