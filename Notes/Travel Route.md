@@ -41,7 +41,7 @@ Riga, Letonia, Tue Jan 14 9:55, Tue Jan 14 17:30, FlixBus
 Tallinn, Estonia, Tue Jan 14 21:50, Thurs Jan 16 7:00, Viking Ferry
 **NORDICS**
 Helsinki, Finland, Thurs Jan 16 9:30, Thurs Jan 16 14:24, XTrain, Art center is sick + ferry ride (we’re gonna try get a reservation for the 19:29 but if it’s too expensive, we will get on the 14:00)
-Rovaniemi, Finland, Thurs Jan 16 22:45, Sun Jan 19, Santa Village
+Rovaniemi, Finland, Thurs Jan 16 22:45, Mon Jan 20 5:15, Santa Village
 Stockholm, Sweden, Fri Jan 17, Sun Jan 19 8:34, Super long ferry 18h
 Gothenburg, Sweden, Sun Jan 19 11:35, Wed Jan 22 7:40, fav swede town
 Copenhagen, Denmark, Wed Jan 22 11:29, Sat Jan 25, fly out here
