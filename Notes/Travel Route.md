@@ -12,6 +12,15 @@ Route 5 (4) - Athens, Thessaloniki, (Strimon, Kulata, Sofia), Istanbul
 Depending on the route we take, we will have extra interrail passes left over. Thus, do not be wary of wasting a pass day.
 We have to decide on which route we’ll take based on what Yang says. Optimally, we 0meet in Istanbul but I do want to do Greece with her. Furthermore, the best option seems to be Route 1 or 2 which both use 4/3 pass days respectfully.
 
+Copenhagen -> London 16E
+London -> Geneva 23E
+Cons: Lose a day or 2
+Pros: See Yang, More money
+
+Copenhagen -> Geneva 80E
+Cons: Lose 40E
+Pros: More time
+
 ```csv
 City, Country, Start, End, Notes
 
