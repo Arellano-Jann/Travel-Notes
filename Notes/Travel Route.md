@@ -21,6 +21,9 @@ Copenhagen -> Geneva 80E
 Cons: Lose 40E
 Pros: More time
 
+Ljubljana -> London
+London -> Athens
+
 ```csv
 City, Country, Start, End, Left by?, Notes
 London, UK, Fri Dec 13 20:00, Mon Dec 16 8:00, Fly, Leave after finals
@@ -40,19 +43,20 @@ Kaunas, Lithuania, Sun Jan 12 16:00, Tue Jan 14 5:55, FlixBus
 Riga, Letonia, Tue Jan 14 9:55, Tue Jan 14 17:30, FlixBus
 Tallinn, Estonia, Tue Jan 14 21:50, Thurs Jan 16 7:00, Viking Ferry
 **NORDICS**
-Helsinki, Finland, Thurs Jan 16 9:30, Thurs Jan 16 14:24, XTrain, Art center is sick + ferry ride (we’re gonna try get a reservation for the 19:29 but if it’s too expensive, we will get on the 14:00)
-Rovaniemi, Finland, Thurs Jan 16 22:45, Mon Jan 20 5:15, Santa Village
-Stockholm, Sweden, Fri Jan 17, Sun Jan 19 8:34, Super long ferry 18h
-Gothenburg, Sweden, Sun Jan 19 11:35, Wed Jan 22 7:40, fav swede town
-Copenhagen, Denmark, Wed Jan 22 11:29, Sat Jan 25, fly out here
+Helsinki, Finland, Thurs Jan 16 9:30, Thurs Jan 16 23:13, Train, Art center is sick + ferry ride
+Rovaniemi, Finland, Fri Jan 17 11:15, Mon Jan 20 5:15, XTrain, Santa Village n Levi n Hiking
+Stockholm, Sweden, Tue Jan 21 10:13, Wed Jan 22 10:14, XTrain, Love it hate it?
+Gothenburg, Sweden, Wed Jan 22 14:57, Fri Jan 24 7:40, fav swede town
+Copenhagen, Denmark, Fri Jan 24 11:29, Sat Jan 25 22:45, RyanAir
+London, United Kingdom, Sat Jan 25 23:40, Mon Jan 27 17:35, EasyJet
 **MOUNTAIN**
-Geneva, Switzerland, Sat Jan 25, NA, take trains thru to Zurich
-Zurich, Switzerland, Mon Jan 27, Wed Jan 29 8:40, panoramic car to ljubljana 🙂
-Ljubljana, Slovenia, Wed Jan 29 22:15, Sat Feb 1 8:55,
+Geneva, Switzerland, Mon Jan 27 20:20, NA, take trains thru to Zurich
+Zurich, Switzerland, Mon Jan 31, Jan 31 8:40, panoramic car to ljubljana 🙂
+Ljubljana, Slovenia, Feb 1 22:15, Sat Feb 4-7 8:50,
 
 fly here, we just cleared up a week
 **MEDITERRANEAN**
-Athens, Greece, Fri Feb 7, Tue Feb 11, you can go across the island w interrail
+Athens, Greece, Sat Feb 4-7 2:55, Tue Feb 11, you can go across the island w interrail
 Thessaloniki, Greece, Tue Feb 11, Wed Feb 12,
 
   
