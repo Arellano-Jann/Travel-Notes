@@ -44,9 +44,9 @@ Riga, Letonia, Tue Jan 14 9:55, Tue Jan 14 17:30, FlixBus
 Tallinn, Estonia, Tue Jan 14 21:50, Thurs Jan 16 7:00, Viking Ferry
 **NORDICS**
 Helsinki, Finland, Thurs Jan 16 9:30, Thurs Jan 16 23:13, Train, Art center is sick + ferry ride
-Rovaniemi, Finland, Fri Jan 17 11:15, Mon Jan 20 5:15, XTrain, Santa Village n Levi n Hiking
-Stockholm, Sweden, Tue Jan 21 10:13, Wed Jan 22 10:14, XTrain, Love it hate it?
-Gothenburg, Sweden, Wed Jan 22 14:57, Fri Jan 24 7:40, fav swede town
+Rovaniemi, Finland, Fri Jan 17 11:15, Tue Jan 20 5:15, XTrain, Santa Village n Hiking
+Stockholm, Sweden, Wed Jan 21 7:01, Wed Jan 22 17:14, XTrain, Love it hate it?
+Gothenburg, Sweden, Wed Jan 22 19:57, Fri Jan 24 7:40, fav swede town
 Copenhagen, Denmark, Fri Jan 24 11:29, Sat Jan 25 22:45, RyanAir
 London, United Kingdom, Sat Jan 25 23:40, Mon Jan 27 17:35, EasyJet
 **MOUNTAIN**
