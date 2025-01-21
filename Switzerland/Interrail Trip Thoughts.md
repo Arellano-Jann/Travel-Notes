@@ -1,4 +1,4 @@
-So I fly into Geneva and we need to find a way to Ljubljana
+So I fly into Geneva on Jan 27 and we need to find a way to Ljubljana
 
 The best scenic routes I’ve found are:
 - Bernina Express (Chur - Tirano)
