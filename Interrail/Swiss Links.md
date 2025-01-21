@@ -4,4 +4,4 @@ https://interrailwiki.eu/switzerland/
 
 https://www.interrail.eu/en/magazine/destinations/best-swiss-scenic-trains-one-trip
 
-https://www.interrail.eu/en/plan-your-trip/trip-ideas/recommended-routes/classic-routes/switzerland-itinerary9
+https://www.interrail.eu/en/plan-your-trip/trip-ideas/recommended-routes/classic-routes/switzerland-itinerary

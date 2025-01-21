@@ -51,7 +51,15 @@ Copenhagen, Denmark, Fri Jan 24 11:29, Sat Jan 25 22:45, RyanAir
 London, United Kingdom, Sat Jan 25 23:40, Mon Jan 27 17:35, EasyJet
 **MOUNTAIN**
 Geneva, Switzerland, Mon Jan 27 20:20, NA, take trains thru to Zurich
-Zurich, Switzerland, Mon Jan 31, Jan 31 8:40, panoramic car to ljubljana 🙂
+Bern, Switzerland, $51 ($45 hi)
+Interlaken, Switzerland, $30/32
+Brig, Switzerland, $82
+Chur, Switzerland, $48
+Tirano, Italy, $50
+Como, Italy, $32/20
+Luzern, Switzerland, $38 ($35 hi)
+Zurich, Switzerland, Mon Jan 31, Jan 31 8:40, panoramic car to ljubljana
+Lichtenstein?, $51
 Ljubljana, Slovenia, Feb 1 22:15, Sat Feb 4-7 8:50,
 
 fly here, we just cleared up a week
