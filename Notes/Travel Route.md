@@ -64,7 +64,7 @@ Ljubljana, Slovenia, Feb 1 22:15, Sat Feb 4-7 8:50,
 
 fly here, we just cleared up a week
 **MEDITERRANEAN**
-Athens, Greece, Sat Feb 4-7 2:55, Tue Feb 11, you can go across the island w interrail
+Athens, Greece, Sat Feb 6/7 2:55, Tue Feb 10, you can go across the island w interrail
 Thessaloniki, Greece, Tue Feb 11, Wed Feb 12,
 
   
