@@ -50,21 +50,21 @@ Gothenburg, Sweden, Wed Jan 22 19:57, Fri Jan 24 7:40, fav swede town
 Copenhagen, Denmark, Fri Jan 24 11:29, Sat Jan 25 22:45, RyanAir
 London, United Kingdom, Sat Jan 25 23:40, Mon Jan 27 17:35, EasyJet
 **MOUNTAIN**
-Geneva, Switzerland, Mon Jan 27 20:20, NA, take trains thru to Zurich
-Bern, Switzerland, $51 ($45 hi)
-Interlaken, Switzerland, $30/32
-Brig, Switzerland, $82
-Chur, Switzerland, $48
-Tirano, Italy, $50
-Como, Italy, $32/20
-Luzern, Switzerland, $38 ($35 hi)
-Zurich, Switzerland, Mon Jan 31, Jan 31 8:40, panoramic car to ljubljana
+Geneva, Switzerland, Mon Jan 27 20:20, Tue Jan 28, take trains thru to Zurich
+Bern, Switzerland, Tue Jan 28, Tue Jan 28, $51 ($45 hi)
+Interlaken, Switzerland, Tue Jan 28, Wed Jan 29, $30/32
+Brig, Switzerland, Wed Jan 29, Wed Jan 29, $82
+Chur, Switzerland, Wed Jan 29, Wed Jan 29, $48
+Tirano, Italy, Wed Jan 29, Wed Jan 29, $50
+Como, Italy, Wed Jan 29, Thur Jan 30, $32/20
+Luzern, Switzerland, Fri Jan 31, Sat Feb 1, $38 ($35 hi)
+Zurich, Switzerland, Sat Feb 1, Sun Feb 2 8:40, panoramic car to ljubljana
 Lichtenstein?, $51
 Ljubljana, Slovenia, Feb 1 22:15, Sat Feb 4-7 8:50,
 
 fly here, we just cleared up a week
 **MEDITERRANEAN**
-Athens, Greece, Sat Feb 6/7 2:55, Tue Feb 10, you can go across the island w interrail
+Athens, Greece, Sat Feb 4-7 2:55, Tue Feb 11, you can go across the island w interrail
 Thessaloniki, Greece, Tue Feb 11, Wed Feb 12,
 
   
