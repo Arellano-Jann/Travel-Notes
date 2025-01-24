@@ -46,26 +46,25 @@ Tallinn, Estonia, Tue Jan 14 21:50, Thurs Jan 16 7:00, Viking Ferry
 Helsinki, Finland, Thurs Jan 16 9:30, Thurs Jan 16 23:13, Train, Art center is sick + ferry ride
 Rovaniemi, Finland, Fri Jan 17 11:15, Tue Jan 20 5:15, XTrain, Santa Village n Hiking
 Stockholm, Sweden, Wed Jan 21 7:01, Wed Jan 22 17:14, XTrain, Love it hate it?
-Gothenburg, Sweden, Wed Jan 22 19:57, Fri Jan 24 7:40, fav swede town
+Gothenburg, Sweden, Wed Jan 22 19:57, Fri Jan 24 7:40, XTrain, fav swede town
 Copenhagen, Denmark, Fri Jan 24 11:29, Sat Jan 25 22:45, RyanAir
 London, United Kingdom, Sat Jan 25 23:40, Mon Jan 27 17:35, EasyJet
 **MOUNTAIN**
-Geneva, Switzerland, Mon Jan 27 20:20, Tue Jan 28, take trains thru to Zurich
-Bern, Switzerland, Tue Jan 28, Tue Jan 28, $51 ($45 hi)
-Interlaken, Switzerland, Tue Jan 28, Wed Jan 29, $30/32
-Brig, Switzerland, Wed Jan 29, Wed Jan 29, $82
-Chur, Switzerland, Wed Jan 29, Wed Jan 29, $48
-Tirano, Italy, Wed Jan 29, Wed Jan 29, $50
-Como, Italy, Wed Jan 29, Thur Jan 30, $32/20
-Luzern, Switzerland, Fri Jan 31, Sat Feb 1, $38 ($35 hi)
-Zurich, Switzerland, Sat Feb 1, Sun Feb 2 8:40, panoramic car to ljubljana
+Geneva, Switzerland, Mon Jan 27 20:20, Tue Jan 28 10:35, XTrain, take trains thru to Zurich
+Bern, Switzerland, Tue Jan 28 12:26, Tue Jan 28 22:07, train, $51 ($45 hi)
+Interlaken, Switzerland, Tue Jan 28 22:59, Wed Jan 29 13:29, Xtrain, $30/32
+Brig, Switzerland, Wed Jan 29 14:41, Wed Jan 29, train, $82
+Chur, Switzerland, Wed Jan 29, Wed Jan 29, train, $48
+Tirano, Italy, Wed Jan 29, Wed Jan 29, train, $50
+Como, Italy, Wed Jan 29, Thur Jan 30, Xtrain, $32/20
+Luzern, Switzerland, Fri Jan 31, Sat Feb 1, Xtrain, $38 ($35 hi)
+Zurich, Switzerland, Sat Feb 1, Sun Feb 2 8:40, Xtrain, panoramic car to ljubljana
 Lichtenstein?, $51
-Ljubljana, Slovenia, Feb 1 22:15, Sat Feb 4-7 8:50,
-
-fly here, we just cleared up a week
+Ljubljana, Slovenia, Feb 1 22:15, Sat Feb 4 8:50, Xtrain,
+Venice, Feb 4, Feb 6 9:10, Wizz Air + Checked Bag,  
 **MEDITERRANEAN**
-Athens, Greece, Sat Feb 4-7 2:55, Tue Feb 11, you can go across the island w interrail
-Thessaloniki, Greece, Tue Feb 11, Wed Feb 12,
+Athens, Greece, Sat Feb 4-7 2:55, Tue Feb 11, Xtrain, you can go across the island w interrail
+Thessaloniki, Greece, Tue Feb 11, Wed Feb 12, Xtrain,
 
   
 
