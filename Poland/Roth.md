@@ -1,1 +1,3 @@
-Lives in [[]]
+Lives in [[Gothenburg]]
+
+Student CS
