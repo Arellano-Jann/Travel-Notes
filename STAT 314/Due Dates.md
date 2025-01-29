@@ -50,3 +50,10 @@ There are two online exams in this course - a midterm and a comprehensive final.
 - Final - The final exam is comprehensive. The exam window (March 18, 12 AM - March 19, 11:59 PM) is scheduled during finals week.
     
 - You will have 110 minutes to complete the exams
+
+Assuming 90% on exams, $$3.57d+3.125t=(92-(40*.9)-10)=46$$
+$$\text{DA} + \text{TopHat} = \text{Minimum A} - \text{Weighted Exams} - \text{Discussions}$$
+Possible Solutions:
+- total of around 14 assignments done for 90% exams
+	- 6 DA, 8 Top Hats
+	- 7 DA, 7 Top Hats
