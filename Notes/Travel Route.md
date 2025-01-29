@@ -52,13 +52,13 @@ London, United Kingdom, Sat Jan 25 23:40, Mon Jan 27 17:35, EasyJet
 **MOUNTAIN**
 Geneva, Switzerland, Mon Jan 27 20:20, Tue Jan 28 10:35, XTrain, take trains thru to Zurich
 Bern, Switzerland, Tue Jan 28 12:26, Tue Jan 28 22:07, train, $51 ($45 hi)
-Interlaken, Switzerland, Tue Jan 28 22:59, Wed Jan 29 13:29, Xtrain, $30/32
-Brig, Switzerland, Wed Jan 29 14:41, Wed Jan 29, train, $82
-Chur, Switzerland, Wed Jan 29, Wed Jan 29, train, $48
-Tirano, Italy, Wed Jan 29, Wed Jan 29, train, $50
-Como, Italy, Wed Jan 29, Thur Jan 30, Xtrain, $32/20
-Luzern, Switzerland, Fri Jan 31, Sat Feb 1, Xtrain, $38 ($35 hi)
-Zurich, Switzerland, Sat Feb 1, Sun Feb 2 8:40, Xtrain, panoramic car to ljubljana
+Interlaken, Switzerland, Tue Jan 28 22:59, Thu Jan 30 5:59, Xtrain, $30/32 xxx
+Brig, Switzerland, Thu Jan 30 7:13, Thu Jan 30 7:23, Glacier train via Fuergang, $82
+Chur, Switzerland, Thu Jan 30 13:02, Thu Jan 30 13:58, Bernina train, $48
+Tirano, Italy, Thu Jan 30 19:00, Thu Jan 30 19:08, train, $50
+Como, Italy, Thu Jan 30 22:44, Fri Jan 31 14:46, Xtrain, $32/20
+Luzern, Switzerland, Fri Jan 31 17:41, Sat Feb 1 10:09, Xtrain, $38 ($35 hi)
+Zurich, Switzerland, Sat Feb 1 10:51, Sun Feb 2 8:40, Xtrain, panoramic car to ljubljana
 Lichtenstein?, $51
 Ljubljana, Slovenia, Feb 1 22:15, Sat Feb 4 8:50, Xtrain,
 Venice, Feb 4, Feb 6 9:10, Wizz Air + Checked Bag,  
@@ -81,4 +81,6 @@ Singapore, Singapore, Mon Mar 10, Thurs Mar 13, 106E, DEL-SIN
 Bangkok, Thailand, Thurs Mar 13, Mon Mar 17, 65E, SIN-BKK
 Shanghai, China, Mon Mar 17,  Sun Mar 23, $, BKK-
 Tokyo, Japan, Sun Mar 23, , $, Shanghai-NRT, 
-```
+
+
+Furgangen stop on Glacier Express - suspension bridge
