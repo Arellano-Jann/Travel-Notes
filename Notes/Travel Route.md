@@ -50,18 +50,18 @@ Gothenburg, Sweden, Wed Jan 22 19:57, Fri Jan 24 7:40, XTrain, fav swede town
 Copenhagen, Denmark, Fri Jan 24 11:29, Sat Jan 25 22:45, RyanAir
 London, United Kingdom, Sat Jan 25 23:40, Mon Jan 27 17:35, EasyJet
 **MOUNTAIN**
-Geneva, Switzerland, Mon Jan 27 20:20, Tue Jan 28 10:35, XTrain, Meininger - take trains thru to Zurich
-Bern, Switzerland, Tue Jan 28 12:26, Tue Jan 28 22:07, train,
-Interlaken, Switzerland, Tue Jan 28 22:59, Thu Jan 30 5:59, Xtrain, Balmers
+Geneva, Switzerland, Mon Jan 27 20:20, Tue Jan 28 10:35, XTrain, take trains thru to Zurich
+Bern, Switzerland, Tue Jan 28 12:26, Tue Jan 28 22:07, train, $51 ($45 hi)
+Interlaken, Switzerland, Tue Jan 28 22:59, Thu Jan 30 5:59, Xtrain, $30/32 xxx
 Brig, Switzerland, Thu Jan 30 7:13, Thu Jan 30 7:23, Glacier train via Fuergang, $82
 Chur, Switzerland, Thu Jan 30 13:02, Thu Jan 30 13:58, Bernina train, $48
 Tirano, Italy, Thu Jan 30 19:00, Thu Jan 30 19:08, train, $50
-Como, Italy, Thu Jan 30 22:44, Fri Jan 31 14:46, Xtrain, Ostello Bello
-Luzern, Switzerland, Fri Jan 31 17:41, Sat Feb 1 10:09, Xtrain, youth hostel
+Como, Italy, Thu Jan 30 22:44, Fri Jan 31 14:46, Xtrain, $32/20
+Luzern, Switzerland, Fri Jan 31 17:41, Sat Feb 1 10:09, Xtrain, $38 ($35 hi)
 Zurich, Switzerland, Sat Feb 1 10:51, Sun Feb 2 8:40, Xtrain, panoramic car to ljubljana
 Lichtenstein?, $51
-Ljubljana, Slovenia, Feb 2 20:35, Sat Feb 5 5:50, Xtrain, sax pub
-Venice, Feb 5 11:21 , Feb 6 9:10, Wizz Air + Checked Bag, generator
+Ljubljana, Slovenia, Feb 1 22:15, Sat Feb 4 8:50, Xtrain,
+Venice, Feb 4, Feb 6 9:10, Wizz Air + Checked Bag,  
 **MEDITERRANEAN**
 Athens, Greece, Sat Feb 4-7 2:55, Tue Feb 11, Xtrain, you can go across the island w interrail
 Thessaloniki, Greece, Tue Feb 11, Wed Feb 12, Xtrain,

@@ -54,11 +54,6 @@ There are two online exams in this course - a midterm and a comprehensive final.
 Assuming 90% on exams, $$3.57d+3.125t=(92-(40*.9)-10)=46$$
 $$\text{DA} + \text{TopHat} = \text{Minimum A} - \text{Weighted Exams} - \text{Discussions}$$
 Possible Solutions:
-- total of around 14 assignments done if 90% exams
+- total of around 14 assignments done for 90% exams
 	- 6 DA, 8 Top Hats
 	- 7 DA, 7 Top Hats
-- total of 80% overall on both exams if 100% assignments
-
-Thoughts:
-- we need to keep scoring 100%s on the assignments until we can see how hard the exam actually is
-- actually, there’s a mock exam, lets see it lol. its long ill look later
