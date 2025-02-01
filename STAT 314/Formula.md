@@ -1,4 +1,4 @@
-## HW 4
+## HW 4t
 Confidence Interval
 $$CI=X+Z_\sigma \times \frac{\sigma}{\sqrt{n}}$$
 where:
