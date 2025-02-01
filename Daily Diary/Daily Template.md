@@ -4,7 +4,7 @@
 # To Do
 - [ ] 
 
-# Thoughts? What?
+# Thoughts? What? Tips?
 - 
 
 ### Regrets
