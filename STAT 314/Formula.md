@@ -1,9 +1,9 @@
-## HW 4t
+## HW 4
 Confidence Interval
 $$CI=X+Z_\sigma \times \frac{\sigma}{\sqrt{n}}$$
 where:
 - $X$ = sample mean
-- $Z_\sigma$ = crit value
+- $Z_\sigma$ = crit value (or t_crit/$t^*$)
 - $\sigma$ = SD
 - $n$ = sample size
 
