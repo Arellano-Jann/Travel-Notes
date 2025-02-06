@@ -63,12 +63,13 @@ Lichtenstein?, $51
 Ljubljana, Slovenia, Feb 1 22:15, Sat Feb 4 8:50, Xtrain,
 Venice, Feb 4, Feb 6 9:10, Wizz Air + Checked Bag,  
 **MEDITERRANEAN**
-Athens, Greece, Sat Feb 4-7 2:55, Tue Feb 11, Xtrain, you can go across the island w interrail
-Thessaloniki, Greece, Tue Feb 11, Wed Feb 12, Xtrain,
+Athens, Greece, Sat Feb 6 2:55, Tue Feb 10, Xtrain, you can go across the island w interrail
 
   
 
-Istanbul, Turkey, Sat Feb 15, Tue Feb 18, 42E
+Istanbul, Turkey, Mon Feb 10, Fri Feb 14 14:15, Air Cairo w Checked Bag, 77E
+Cairo, Egypt, Fri Feb 14 15:25, Tue Feb 18, 
+
 Tbilisi, Georgia, Tue Feb 18, Fri Feb 21, 48E, SAW-TBS 
 
 **ASIA**
