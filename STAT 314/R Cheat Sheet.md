@@ -58,8 +58,8 @@ upper_bound <- beta_2 + t_star * SE_2
 round(c(lower_bound, upper_bound), 3)```
 $\sigma$ is known as residual std error
 $\hat{y}$ is predicted y
-lwr, upr is lower and upper confidence intervals 
-lower_bound and upper_bound are the formulas for confidence intervals
+lwr, upr is lower and upper confidence intervals (for $\micro$ when given specific x and y values)
+lower_bound and upper_bound are the formulas for confidence intervals (specific vars)
 df2 is degrees of freedom (error/total)
 
 
