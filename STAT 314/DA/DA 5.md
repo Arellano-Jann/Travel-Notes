@@ -2,9 +2,15 @@
 
 > Scenario 1. A manufacturer of seat belts routinely samples the strength of seat belts to ensure their product meets specifications. Past experience has indicated the breaking strength of seat belts is normally distributed with a standard deviation of . A random sample of 16 specimens yields an average breaking strength of 2003 psi.  What type of procedure is appropriate to test whether the mean is other than the desired 2000 psi?
 
+T Test for population mean
+
 > Scenario 2. In an effort to support students beyond tuition assistance, a philanthropy group would like to provide eligible students with a monthly amount for food and groceries. They would like to know if $300 a month is a reasonable amount to support a student. A report from a University’s housing and dining department claims students spend on average $315 on food and groceries per month with a standard deviation $126. They assume this data from a random sample of 161 students represents the population. Which procedure is appropriate to investigate whether $300 is not a reasonable amount per month, on average?
 
+Z test for population mean
+
 > Scenario 3. During a viral pandemic, a state applies a tiered risk assessment to counties based on the proportion of residents who test positive for the virus. Suppose a county randomly samples and tests 1000 residents for the virus every two weeks. If the proportion of positive tests is more than 0.01, the county is assessed as high risk.Which procedure is most appropriate to test whether the proportion for positive tests is more than 1%? 
+
+Z test for population proportion
 
 > Part 2. (9 points) Suppose a new initiative is interested in increasing the percent of students who identify as female to pursue an engineering or computer science degree. A university will receive funding to actively market to these students if there is evidence that less than 1 in 3 engineering or computer science students identify as female.  Use the information presented in the bar graph below to answer the following questions.
 > Is there evidence the proportion of all OSU engineering students who identify as female is less than 0.33? Use a significance level of 0.01.    
