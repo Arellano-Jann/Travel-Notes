@@ -1,24 +1,11 @@
-Select **three** questions from the practice midterm. Please consider the following when selecting your three questions:
-- - Choose questions that were initially (or still are) challenging for you. This assignment is for your benefit. Choosing the easiest questions on the practice exam will not actually prepare you for the exam. 
-- You must choose questions that require you to use material from different lessons. Here is an example of a set of three questions and the different lessons they correspond with. **You do not need to use these three questions - this is just an example.** 
-        - - Question 9 - Lesson 3: Conditional Probability
-        - Question 28 - Lesson 15: Normal Distribution Applications
-        - Question 46 - Lesson 31: Estimating the Population Proportion
 
-#### **Writing Solutions** 
-
-You should create a single post that contains the solutions to the three questions you've selected. Each solution is worth 5 points for a total of 15 points on this assignment. The accuracy of your solution will not be graded, so long as it is clear that you have made a genuine effort to write a solution or thorough explanation for the problem. 
-
-For each solution, you must include the following:
-
-- (0.5 points) The problem number, clearly stated (e.g. Question 9)
 - (0.5 points) The lesson in which the material needed to answer the question was presented (e.g. Lesson 3: Conditional Probability). 
 - (3 points) A worked out solution or thorough explanation to the problem. Posts that include only the answer with no explanation or work shown to support the answer will not earn these points. 
 - (1 point) The final answer to the question
 
 Question 9 - Lesson 3: Conditional Probability
-Solution
-Answer
+Solution:
+Answer:
 
 # ST 314 Midterm Exam Practice Questions and Answer Key
 
@@ -32,7 +19,9 @@ Answer
   - **a. True**  
   - b. False 
 
-Question 1 - Lesson 1: 
+Question 1 - Lesson 14: The Standard Normal Distribution
+Solution: This is true because it is a bell curve, highlighted by “standard normal density.” For example, if it was skewed, there is no guarantee that the half of the datapoints would be below the mean.
+Answer: True
 
 ---
 
@@ -242,6 +231,8 @@ Question 1 - Lesson 1:
   - **b. 0.08**  
   - c. 0.94  
   - d. None of the above.  
+
+
 
 ---
 
@@ -589,10 +580,18 @@ Question 1 - Lesson 1:
 - **Question:** Calculate the 95% confidence interval provided $\bar{x} = 16.28$ inches and $s = 4.40$ inches.  
 - **Answer:**  
   - **Answer:**  
-    \[
-    16.28 \pm 2.064 \times \frac{4.40}{\sqrt{24}} = 16.28 \pm 1.82
-    \]  
+    $16.28 \pm 2.064 \times \frac{4.40}{\sqrt{25}}$
+    $16.28 \pm 2.064 \times .88$
+    $16.28 \pm 1.82$
     **95% CI:** (14.46 inches, 18.10 inches)  
+
+Question 59 - Lesson 25: Point and Interval Estimation 
+Solution:
+We use the formula for confidence intervals below:
+$$\bar{x} \pm z_{a/2}\times\frac{s}{\sqrt{n}}$$
+For a 95% confidence interval, our z crit value would be 2.064
+Afterwards, we are given all of the values so we can just sub the values in appropriately. $$\bar{16.28} \pm z_{a/2}\times\frac{s}{\sqrt{n}}$$
+Answer:
 
 ---
 
