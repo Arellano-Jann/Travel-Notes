@@ -2,7 +2,7 @@
 
 > Scenario 1. A manufacturer of seat belts routinely samples the strength of seat belts to ensure their product meets specifications. Past experience has indicated the breaking strength of seat belts is normally distributed with a standard deviation of . A random sample of 16 specimens yields an average breaking strength of 2003 psi.  What type of procedure is appropriate to test whether the mean is other than the desired 2000 psi?
 
-T Test for population mean
+T Test for population mean because we are given the 
 
 > Scenario 2. In an effort to support students beyond tuition assistance, a philanthropy group would like to provide eligible students with a monthly amount for food and groceries. They would like to know if $300 a month is a reasonable amount to support a student. A report from a University’s housing and dining department claims students spend on average $315 on food and groceries per month with a standard deviation $126. They assume this data from a random sample of 161 students represents the population. Which procedure is appropriate to investigate whether $300 is not a reasonable amount per month, on average?
 
@@ -43,6 +43,8 @@ Use this dataset and the R script DA5_t_procedures.R to complete the following
 
 > d. (1 point) Check the conditions for inference. State them and whether they are met.   
 
-> e. (1 point) Use the t.test() command in R to perform the test. Paste your results.   
+> e. (1 point) Use the t.test() command in R to perform the test. Paste your results.  
+
+![[../../../Ignored/IMG_2956.jpeg]]
 
 > f. (3 points) From the R output, write a four-part conclusion describing the results. Use . Provide a statement in terms of the alternative hypothesis. State whether (or not) to reject the null. Give in context an interpretation of the point and interval estimate.  Include any other information you might feel to relevant.
