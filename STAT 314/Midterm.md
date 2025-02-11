@@ -1,3 +1,25 @@
+Select **three** questions from the practice midterm. Please consider the following when selecting your three questions:
+- - Choose questions that were initially (or still are) challenging for you. This assignment is for your benefit. Choosing the easiest questions on the practice exam will not actually prepare you for the exam. 
+- You must choose questions that require you to use material from different lessons. Here is an example of a set of three questions and the different lessons they correspond with. **You do not need to use these three questions - this is just an example.** 
+        - - Question 9 - Lesson 3: Conditional Probability
+        - Question 28 - Lesson 15: Normal Distribution Applications
+        - Question 46 - Lesson 31: Estimating the Population Proportion
+
+#### **Writing Solutions** 
+
+You should create a single post that contains the solutions to the three questions you've selected. Each solution is worth 5 points for a total of 15 points on this assignment. The accuracy of your solution will not be graded, so long as it is clear that you have made a genuine effort to write a solution or thorough explanation for the problem. 
+
+For each solution, you must include the following:
+
+- (0.5 points) The problem number, clearly stated (e.g. Question 9)
+- (0.5 points) The lesson in which the material needed to answer the question was presented (e.g. Lesson 3: Conditional Probability). 
+- (3 points) A worked out solution or thorough explanation to the problem. Posts that include only the answer with no explanation or work shown to support the answer will not earn these points. 
+- (1 point) The final answer to the question
+
+Question 9 - Lesson 3: Conditional Probability
+Solution
+Answer
+
 # ST 314 Midterm Exam Practice Questions and Answer Key
 
 ---
@@ -7,8 +29,10 @@
 ### **1. Under a standard normal density, 50% of the data falls below the mean.**
 - **Question:** Under a standard normal density, 50% of the data falls below the mean.  
 - **Answer:**  
-  - a. True  
-  - **b. False**  
+  - **a. True**  
+  - b. False 
+
+Question 1 - Lesson 1: 
 
 ---
 
