@@ -188,19 +188,21 @@ Answer: True
 
 ### **19. What is the cumulative density function?**
 - **Question:** The random variable X is described by the following pdf:  
-  \[
+$$
   f(x) = 
   \begin{cases} 
   3x^{-4}, & x > 1 \\
   0, & \text{otherwise}
   \end{cases}
-  \]  
+  $$
   What is the cumulative density function?  
 - **Answer:**  
   - a. $F(x) = 1$  
   - b. $F(x) = -x^{-3}$  
-  - **c. $F(x) = 1 - x^{-3}$**  
+  - **c. $F(x) = 1 - x^{-3}$**  <
   - d. $F(x) = 3x^{-4}$  
+
+
 
 ---
 
@@ -211,6 +213,15 @@ Answer: True
   - b. 0.421  
   - c. 0.579  
   - d. 0.113  
+
+Question 20 - Lesson 8: Continuous Random Variables and Probability Distributions
+Solution:
+Since we know the CDF from the previous question, we can calculate this easily. We take the CDF since it’s *cumulative* and takes the area corresponding to the left side. Since we are calculating the probability that X will be less than 1.2, this matches up perfectly. Thus we can just substitute the value in. If we had the wrong CDF, then this would also be wrong so it’s important to integrate properly while keeping in mind the limits. I mistakenly put the CDF as $-x^{-3}$ the first time and got this one wrong in my corrections too because of that.
+$1-(1.2)^{-3}$
+$1-(.579)$
+$.421$
+Answer:
+.634
 
 ---
 
@@ -231,7 +242,6 @@ Answer: True
   - **b. 0.08**  
   - c. 0.94  
   - d. None of the above.  
-
 
 
 ---
@@ -585,13 +595,16 @@ Answer: True
     $16.28 \pm 1.82$
     **95% CI:** (14.46 inches, 18.10 inches)  
 
-Question 59 - Lesson 25: Point and Interval Estimation 
+Question 59 - Lesson 28: Estimation: The Population Mean
 Solution:
-We use the formula for confidence intervals below:
-$$\bar{x} \pm z_{a/2}\times\frac{s}{\sqrt{n}}$$
-For a 95% confidence interval, our z crit value would be 2.064
-Afterwards, we are given all of the values so we can just sub the values in appropriately. $$\bar{16.28} \pm z_{a/2}\times\frac{s}{\sqrt{n}}$$
+We use the formula for t confidence intervals below since we don’t know $\sigma$:
+$$\bar{x} \pm t_{n-1,a/2}\times\frac{s_x}{\sqrt{n}}$$
+For a 95% confidence interval and 24 df, our t crit value would be 2.064. I had trouble calculating this with R using `qt(97.5,24)` because it gave me NaN’s so I just used the t-table provided in week 5. However, let me remind you that it’s 97.5 because $2.5 \times 2 = 5$.
+From reading the problem, we know that $n=25$ because there are 25 lionfish in the sample.
+Afterwards, we are given all of the values so we can just sub the values in appropriately. $${16.28} \pm 2.064\times\frac{4.4}{\sqrt{25}}$$
+$${16.28} \pm 1.816$$
 Answer:
+For a 95% confidence interval, $[14.464, 18.096]$
 
 ---
 
