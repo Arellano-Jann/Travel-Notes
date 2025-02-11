@@ -14,6 +14,22 @@ Z Score
 $$\frac{\bar{X}-\micro}{\sigma}$$
 Z Statistic
 $$\frac{\bar{X}-\micro}{\sigma/\sqrt{n}}$$
+## DA 5
+Z Test Proportion
+- Use: when testing the avg val $p$ from a single population
+- Conditions
+	- Random Sample
+	- Normality
+		- $np \geq 10$
+		- $n(1-p) \geq 10$
+
+Z Critical ($z_{1-\alpha/2}$) (at least for $p$)
+- 90% Confidence - 1.645
+- 95% Confidence - 1.96
+- 99% Confidence - 2.576
+
+Test Statistic, z statistic
+$$\frac{\hat{p}-p_0}{\sqrt{p_0*(1-p_0)/n}}$$
 
 ## HW 6
 deg of freedom (between groups) $$df_{1}=I-1$$
