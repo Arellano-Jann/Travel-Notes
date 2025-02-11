@@ -13,15 +13,15 @@
 ---
 
 ### **2. A confidence interval is less precise as the sample size, n, increases.**
-- **Question:** A confidence interval is less precise as the sample size, n, increases.  
+- **Question:** A confidence interval is less precise as the sample size, $n$, increases.  
 - **Answer:**  
   - a. True  
   - **b. False**  
 
 ---
 
-### **3. The smaller the p-value, the stronger the evidence in favor of the alternative hypothesis, \( H_a \), provided by the data.**
-- **Question:** The smaller the p-value, the stronger the evidence in favor of the alternative hypothesis, \( H_a \), provided by the data.  
+### **3. The smaller the p-value, the stronger the evidence in favor of the alternative hypothesis, $H_a$, provided by the data.**
+- **Question:** The smaller the p-value, the stronger the evidence in favor of the alternative hypothesis, $H_a$, provided by the data.  
 - **Answer:**  
   - **a. True**  
   - b. False  
@@ -36,24 +36,24 @@
 
 ---
 
-### **5. The symbols \( \bar{X} \) and \( \hat{p} \) are unknown characteristics from a population.**
-- **Question:** The symbols \( \bar{X} \) and \( \hat{p} \) are unknown characteristics from a population.  
+### **5. The symbols $\bar{X}$ and $\hat{p}$ are unknown characteristics from a population.**
+- **Question:** The symbols $\bar{X}$ and $\hat{p}$ are unknown characteristics from a population.  
 - **Answer:**  
   - a. True  
   - **b. False**  
 
 ---
 
-### **6. When n is large, the sampling distribution for \( \hat{p} \) is normally distributed with mean p and standard deviation \( \frac{p(1-p)}{n} \).**
-- **Question:** When n is large, the sampling distribution for \( \hat{p} \) is normally distributed with mean p and standard deviation \( \frac{p(1-p)}{n} \).  
+### **6. When n is large, the sampling distribution for $\hat{p}$ is normally distributed with mean p and standard deviation $\frac{p(1-p)}{n}$.**
+- **Question:** When $n$ is large, the sampling distribution for $\hat{p}$ is normally distributed with mean $p$ and standard deviation $\frac{p(1-p)}{n}$.  
 - **Answer:**  
   - **a. True**  
   - b. False  
 
 ---
 
-### **7. Which Venn Diagram correctly depicts \( P(A) = 0.30, P(B) = 0.40, P(A \text{ AND } B) = 0.15 \)?**
-- **Question:** Which Venn Diagram correctly depicts \( P(A) = 0.30, P(B) = 0.40, P(A \text{ AND } B) = 0.15 \)?  
+### **7. Which Venn Diagram correctly depicts $P(A) = 0.30$, $P(B) = 0.40$, $P(A \text{ AND } B) = 0.15$?**
+- **Question:** Which Venn Diagram correctly depicts $P(A) = 0.30$, $P(B) = 0.40$, $P(A \text{ AND } B) = 0.15$?  
 - **Answer:**  
   - a. Diagram 1  
   - b. Diagram 2  
@@ -168,7 +168,7 @@
 - **Answer:**  
   - a. Probability density functions can’t be piece-wise functions.  
   - b. The variable should be x not y.  
-  - c. The range of the r.v. can only be from -∞ to +∞.  
+  - c. The range of the r.v. can only be from $-\infty$ to $+\infty$.  
   - **d. The function does not integrate to 1 over the sample space.**  
 
 ---
@@ -184,10 +184,10 @@
   \]  
   What is the cumulative density function?  
 - **Answer:**  
-  - a. \( F(x) = 1 \)  
-  - b. \( F(x) = -x^{-3} \)  
-  - **c. \( F(x) = 1 - x^{-3} \)**  
-  - d. \( F(x) = 3x^{-4} \)  
+  - a. $F(x) = 1$  
+  - b. $F(x) = -x^{-3}$  
+  - **c. $F(x) = 1 - x^{-3}$**  
+  - d. $F(x) = 3x^{-4}$  
 
 ---
 
@@ -214,7 +214,7 @@
 ### **22. Find the probability that an individual would wait longer than 10 minutes to be served.**
 - **Question:** The length of time for one individual to be served at a restaurant is a random variable having an exponential distribution with an expected wait time of 4 minutes. Find the probability that an individual would wait longer than 10 minutes to be served.  
 - **Answer:**  
-  - a. ≈ 0.00  
+  - a. $\approx$ 0.00  
   - **b. 0.08**  
   - c. 0.94  
   - d. None of the above.  
@@ -228,8 +228,8 @@
 
 ---
 
-### **24. Draw the distribution. On the axis indicate the mean and \( \pm 1, \pm 2, \pm 3 \) standard deviations away from the mean.**
-- **Question:** The Lightning Bolt Electric Car company claims their new car “The Buzzer” can travel on average 170 miles on one charge (\( \mu = 170 \, \text{miles} \)). It is known that the population distribution associated with the distance per charge in normally distributed with standard deviation of 30 miles. Draw the distribution. On the axis indicate the mean and \( \pm 1, \pm 2, \pm 3 \) standard deviations away from the mean.  
+### **24. Draw the distribution. On the axis indicate the mean and $\pm 1$, $\pm 2$, $\pm 3$ standard deviations away from the mean.**
+- **Question:** The Lightning Bolt Electric Car company claims their new car “The Buzzer” can travel on average 170 miles on one charge ($\mu = 170$ miles). It is known that the population distribution associated with the distance per charge in normally distributed with standard deviation of 30 miles. Draw the distribution. On the axis indicate the mean and $\pm 1$, $\pm 2$, $\pm 3$ standard deviations away from the mean.  
 - **Answer:**  
   \[
   80 \quad 110 \quad 140 \quad 170 \quad 200 \quad 230 \quad 260
@@ -436,7 +436,7 @@
 ---
 
 ### **45. How large of a sample will she need to be 95% confident that her sample average will be at most 15 seconds from the true mean?**
-- **Question:** An efficiency expert wishes to determine the average amount time that it takes to drill three holes in a certain metal clamp. How large of a sample will she need to be 95% confident that her sample average will be at most 15 seconds from the true mean? Assume \( \sigma = 40 \).  
+- **Question:** An efficiency expert wishes to determine the average amount time that it takes to drill three holes in a certain metal clamp. How large of a sample will she need to be 95% confident that her sample average will be at most 15 seconds from the true mean? Assume $\sigma = 40$.  
 - **Answer:**  
   - a. 5  
   - b. 6  
@@ -458,15 +458,15 @@
 ### **47. Which are the appropriate hypotheses?**
 - **Question:** The college president is more interested in testing her suspicion that the proportion of students at her college that binge drink is lower than the national proportion of 0.41. Which are the appropriate hypotheses?  
 - **Answer:**  
-  - a. \( H_0: p = 0.41, \, H_a: p > 0.41 \)  
-  - b. \( H_0: p < 0.41, \, H_a: p > 0.41 \)  
-  - c. \( H_0: p = 0.41, \, H_a: p \neq 0.41 \)  
-  - **d. \( H_0: p = 0.41, \, H_a: p < 0.41 \)**  
+  - a. $H_0: p = 0.41$, $H_a: p > 0.41$  
+  - b. $H_0: p < 0.41$, $H_a: p > 0.41$  
+  - c. $H_0: p = 0.41$, $H_a: p \neq 0.41$  
+  - **d. $H_0: p = 0.41$, $H_a: p < 0.41$**  
 
 ---
 
-### **48. Which of the following conclusions is reasonable, based on a \( p-value = 0.0047 \)?**
-- **Question:** Which of the following conclusions is reasonable, based on a \( p-value = 0.0047 \)?  
+### **48. Which of the following conclusions is reasonable, based on a $p-value = 0.0047$?**
+- **Question:** Which of the following conclusions is reasonable, based on a $p-value = 0.0047$?  
 - **Answer:**  
   - a. There is little evidence to support a conclusion that the proportion of students at this particular college that binge drink is lower than the national proportion of 0.41.  
   - b. There is no evidence that the proportion of binge drinking students at this college is lower than the national proportion of 0.41.  
@@ -476,7 +476,7 @@
 ---
 
 ### **49. In this case, which test is appropriate to test the given null and alternative hypotheses?**
-- **Question:** Bags of a certain brand of tortilla chips claim to have a net weight of 16 ounces. A consumer advocate group wishes to see if there is evidence that the mean net weight is less than advertised and so intends to test the hypotheses \( H_0: \mu = 16, H_a: \mu < 16 \). A simple random sample of 24 bags has a sample mean of \( \bar{x} = 15.68 \) and the sample standard deviation to be \( s = 0.64 \). In this case, which test is appropriate to test the given null and alternative hypotheses?  
+- **Question:** Bags of a certain brand of tortilla chips claim to have a net weight of 16 ounces. A consumer advocate group wishes to see if there is evidence that the mean net weight is less than advertised and so intends to test the hypotheses $H_0: \mu = 16$, $H_a: \mu < 16$. A simple random sample of 24 bags has a sample mean of $\bar{x} = 15.68$ and the sample standard deviation to be $s = 0.64$. In this case, which test is appropriate to test the given null and alternative hypotheses?  
 - **Answer:**  
   - a. one sample z test for a mean  
   - **b. one sample t test**  
@@ -497,15 +497,15 @@
 ### **51. Perform the test. Based on these data:**
 - **Question:** Perform the test. Based on these data:  
 - **Answer:**  
-  - a. we would reject \( H_0 \) at significance level 0.10 but not at 0.05.  
-  - b. we would reject \( H_0 \) at significance level 0.05 but not at 0.020.  
-  - **c. we would reject \( H_0 \) at significance level 0.025 but not at 0.01.**  
-  - d. we would reject \( H_0 \) at significance level 0.01.  
+  - a. we would reject $H_0$ at significance level 0.10 but not at 0.05.  
+  - b. we would reject $H_0$ at significance level 0.05 but not at 0.020.  
+  - **c. we would reject $H_0$ at significance level 0.025 but not at 0.01.**  
+  - d. we would reject $H_0$ at significance level 0.01.  
 
 ---
 
-### **52. In which of the following circumstances would conditions of the \( t \)-procedure be violated?**
-- **Question:** Suppose we were not sure if the population distribution of net weights was Normal. In which of the following circumstances would conditions of the \( t \)-procedure be violated?  
+### **52. In which of the following circumstances would conditions of the $t$-procedure be violated?**
+- **Question:** Suppose we were not sure if the population distribution of net weights was Normal. In which of the following circumstances would conditions of the $t$-procedure be violated?  
 - **Answer:**  
   - a. The mean and median of the data are nearly equal.  
   - b. A stem and leaf plot of the data shows moderate outlier.  
@@ -522,7 +522,7 @@
 ---
 
 ### **54. Match ______ A construction engineer would like to test whether a large batch of pressure treated lumber boards are acceptable for use by a given manufacturer.**
-- **Question:** A construction engineer would like to test whether a large batch of pressure treated lumber boards are acceptable for use by a given manufacturer. The boards are advertised as \( 4"x4"x16" \) and should weigh 77 lbs. For the boards to be acceptable there should be no evidence that the boards weigh other than 77 lbs on average. The engineer takes a random sample of 30 boards and finds the average of the sample to be 76.8 lbs and the standard deviation to be 0.2 lbs. What type of test is appropriate for this scenario?  
+- **Question:** A construction engineer would like to test whether a large batch of pressure treated lumber boards are acceptable for use by a given manufacturer. The boards are advertised as $4"x4"x16"$ and should weigh 77 lbs. For the boards to be acceptable there should be no evidence that the boards weigh other than 77 lbs on average. The engineer takes a random sample of 30 boards and finds the average of the sample to be 76.8 lbs and the standard deviation to be 0.2 lbs. What type of test is appropriate for this scenario?  
 - **Answer:**  
   - **B. One sample t test**
 
@@ -561,8 +561,8 @@
 
 ---
 
-### **59. Calculate the 95% confidence interval provided \( \bar{x} = 16.28 \) inches and \( s = 4.40 \) inches.**
-- **Question:** Calculate the 95% confidence interval provided \( \bar{x} = 16.28 \) inches and \( s = 4.40 \) inches.  
+### **59. Calculate the 95% confidence interval provided $\bar{x} = 16.28$ inches and $s = 4.40$ inches.**
+- **Question:** Calculate the 95% confidence interval provided $\bar{x} = 16.28$ inches and $s = 4.40$ inches.  
 - **Answer:**  
   - **Answer:**  
     \[
@@ -576,4 +576,3 @@
 - **Question:** **Summary:** There is convincing evidence that the average length of Lionfish near Florida is greater than 13.5 inches (alternative hypothesis). We reject the null hypothesis at the 0.05 significance level (p-value = 0.002). The 95% confidence interval for the mean length is (14.46 inches, 18.10 inches), and the point estimate is 16.27 inches, indicating that the true mean length is likely between 14.46 and 18.10 inches.
 - **Answer:**  
   - **Answer:** There is convincing evidence the average length of Lionfish near Florida is greater than 13.5 inches. The sample estimates the average Lionfish to be 16.27 inches with a 95% confidence interval from 14.46 inches to 18.10 inches. The null hypothesis is rejected. The one-sided t-test resulted in a significant p-value of 0.002 from a test statistic of 3.16 with 24 df.
-
