@@ -66,16 +66,22 @@ While, to me, it may seem true at first, if they cannot occur at the same time, 
 X bar means sample mean
 p hat means sample proportion
 
-Sample statistics - $\micro$, $p$
-Population parameters - $\bar{x}$, $\hat{p}$
+Population parameters - $\micro$, $p$, $\sigma$
+Sample statistics - $\bar{x}$, $\hat{p}$, $s$
 
 ---
 
 ### **6. When n is large, the sampling distribution for $\hat{p}$ is normally distributed with mean p and standard deviation $\frac{p(1-p)}{n}$.**
-- **Question:** When $n$ is large, the sampling distribution for $\hat{p}$ is normally distributed with mean $p$ and standard deviation $\frac{p(1-p)}{n}$.  
+- **Question:** When $n$ is large, the sampling distribution for $\hat{p}$ is normally distributed with mean $p$ and standard deviation $\sqrt{\frac{p(1-p)}{n}}$.  
 - **Answer:**  
   - **a. True**  
   - b. False  
+
+Also called standard error, as n increases, the variability of the sampling dist decreases.
+E(x) = $\micro$
+SD(x) = $\frac{\sigma}{\sqrt{n}}$
+
+I actually have no idea about this.
 
 ---
 
