@@ -216,7 +216,7 @@ $$
 
 Question 20 - Lesson 8: Continuous Random Variables and Probability Distributions
 Solution:
-Since we know the CDF from the previous question, we can calculate this easily. We take the CDF since it’s *cumulative* and takes the area corresponding to the left side. Since we are calculating the probability that X will be less than 1.2, this matches up perfectly. Thus we can just substitute the value in. If we had the wrong CDF, then this would also be wrong so it’s important to integrate properly while keeping in mind the limits. I mistakenly put the CDF as $-x^{-3}$ the first time and got this one wrong in my corrections too because of that.
+Since we know the CDF from the previous question, we can calculate this easily. We take the CDF since it’s *cumulative* and takes the area corresponding to the left side. Since we are calculating the probability that X will be less than 1.2, this matches up perfectly. Thus we can just substitute the value in. If we had the wrong CDF, then this would also be wrong so it’s important to integrate properly while keeping in mind the limits. I mistakenly put the CDF as $-x^{-3}$ the first time and got this one wrong in my corrections too because of that. So be careful!
 $1-(1.2)^{-3}$
 $1-(.579)$
 $.421$
