@@ -1,3 +1,6 @@
+## HW 1
+Bayes Theorem
+$$P(A | B) = \frac{P(B | A) P(A)}{P(B)}$$$
 ## HW 4
 Confidence Interval
 $$CI=X+Z_\sigma \times \frac{\sigma}{\sqrt{n}}$$

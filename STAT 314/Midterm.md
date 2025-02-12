@@ -41,7 +41,7 @@ It’s more precise because there are more samples.
   - **a. True**  
   - b. False  
 
-This is true because as the p-value gets smaller, we say that there is either
+This is true because as the p-value gets smaller, we say that there is either (convincing < .01, moderately suggestive < .05, slightly suggestive < .10) evidence in favor of the alternative hypothesis. And if it is below the alpha value, we can reject the null hypothesis.
 
 ---
 
@@ -51,6 +51,10 @@ This is true because as the p-value gets smaller, we say that there is either
   - a. True  
   - **b. False**  
 
+Mutually exclusive means that they cannot occur at the same time.
+Independent means that they do not affect each other.
+While, to me, it may seem true at first, if they cannot occur at the same time, then that means that they are affecting each other in some way.
+
 ---
 
 ### **5. The symbols $\bar{X}$ and $\hat{p}$ are unknown characteristics from a population.**
@@ -58,6 +62,12 @@ This is true because as the p-value gets smaller, we say that there is either
 - **Answer:**  
   - a. True  
   - **b. False**  
+
+X bar means sample mean
+p hat means sample proportion
+
+Sample statistics - $\micro$, $p$
+Population parameters - $\bar{x}$, $\hat{p}$
 
 ---
 
