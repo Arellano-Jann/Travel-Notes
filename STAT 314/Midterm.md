@@ -82,6 +82,7 @@ E(x) = $\micro$
 SD(x) = $\frac{\sigma}{\sqrt{n}}$
 
 I actually have no idea about this.
+So $p$ is proportion and this talks about it. We know that when n is alrge, np and n(1-p) must be $\geq$ 10. Thus, we can say the the distribution is normal and has a mean of p, along with the standard deviation stated.
 
 ---
 
@@ -90,8 +91,10 @@ I actually have no idea about this.
 - **Answer:**  
   - a. Diagram 1  
   - b. Diagram 2  
-  - c. Diagram 3  
-  - **d. Diagram 4**  
+  - **c. Diagram 3**
+  - d. Diagram 4
+
+Remember that outer circle + inner circle/middle must equal the total probability.
 
 ---
 
@@ -99,12 +102,20 @@ I actually have no idea about this.
 - **Question:** What is the probability either A or B or both events occur?  
 - **Answer:**  
   - a. 0.70  
-  - **b. 0.85**  
-  - c. 0.55  
+  - b. 0.85
+  - **c. 0.55**  
   - d. 0.45  
 
----
+This is a classic A union B. I think that Bayes theorem is “what is a chance of A given that B happens (A|B)”
+We can get the formula for P(A U B). It’s P(A) + P(B) - P(A and B). We have all the venn diagrams we need here
 
+---
+Use the following to answer the next 3 questions A computer 
+manufacturer has three different facilities they use to manufacture 
+monitors for their desktop computers. From each of the facilities the 
+monitors are inspected for defects. The tree diagram depicts this 
+scenario, Def = defective or Monitor has defects:
+![[../../Ignored/Pasted image 20250212220635.png]]
 ### **9. Given a monitor is manufactured at Facility 2, what is the chance it is not defective?**
 - **Question:** Given a monitor is manufactured at Facility 2, what is the chance it is not defective?  
 - **Answer:**  
@@ -112,6 +123,8 @@ I actually have no idea about this.
   - b. 0.98  
   - c. 0.27  
   - **d. 0.97**  
+
+
 
 ---
 
@@ -123,6 +136,8 @@ I actually have no idea about this.
   - c. 0.053  
   - d. 0.966  
 
+$.37 * .05 = .0185$
+
 ---
 
 ### **11. What is the chance a randomly selected monitor is defective?**
@@ -132,6 +147,8 @@ I actually have no idea about this.
   - b. 0.019  
   - **c. 0.036**  
   - d. 0.964  
+
+$.35 * .02 + .28 * .03 + .37 * .05 = .341$
 
 ---
 
