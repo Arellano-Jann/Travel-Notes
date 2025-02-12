@@ -31,6 +31,8 @@ Answer: True
   - a. True  
   - **b. False**  
 
+It’s more precise because there are more samples.
+
 ---
 
 ### **3. The smaller the p-value, the stronger the evidence in favor of the alternative hypothesis, $H_a$, provided by the data.**
@@ -38,6 +40,8 @@ Answer: True
 - **Answer:**  
   - **a. True**  
   - b. False  
+
+This is true because as the p-value gets smaller, we say that there is either
 
 ---
 
