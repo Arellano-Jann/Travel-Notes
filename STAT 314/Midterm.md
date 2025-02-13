@@ -151,7 +151,11 @@ $.37 * .05 = .0185$
 $.35 * .02 + .28 * .03 + .37 * .05 = .341$
 
 ---
-
+Use the following to answer the next 2 questions. 
+An injection molding process for making detergent bottles 
+uses three different machines the table gives the distribution for the number of machines operating at any given time
+y_i 0 1 2 3
+P(y_i) 0.020 0.030 0.200 0.750
 ### **12. Find the probability that 2 or fewer machines are running at the same time.**
 - **Question:** Find the probability that 2 or fewer machines are running at the same time.  
 - **Answer:**  
@@ -159,6 +163,8 @@ $.35 * .02 + .28 * .03 + .37 * .05 = .341$
   - b. 0.050  
   - **c. 0.250**  
   - d. 0.75  
+
+$.02 + .03 + .2 = .25$
 
 ---
 
@@ -170,8 +176,20 @@ $.35 * .02 + .28 * .03 + .37 * .05 = .341$
   - c. 2.68  
   - d. 7.98  
 
+${\sigma}^2 = V(x) = E(x^2) - |E(x)|^2$
+$\sigma = \sqrt{V(x)}$
+
+$E(x) = 0 + .03 + (2*.2) + (3*.75) = 2.68$
+$E(x^2) = 0 + .03 + (2^2*.2) + (3^2*.75) = 7.58$
+$V(x) = 7.58 - 2.68^2 = .3976$
+$\sigma = \sqrt{.3976} = .631$
+
+
 ---
 
+Use the following to answer the next 2 questions. 
+Solar-heat installations successfully reduce the utility bill 
+60% of the time. Suppose 10 houses with solar-heat installations are selected at random and the outcome between houses is independent. Suppose X is the number of houses that successfully reduced the utility bill out of the 10. 
 ### **14. Which discrete distribution will appropriately model X?**
 - **Question:** Solar-heat installations successfully reduce the utility bill 60% of the time. Suppose 10 houses with solar-heat installations are selected at random and the outcome between houses is independent. Suppose X is the number of houses that successfully reduced the utility bill out of the 10. Which discrete distribution will appropriately model X?  
 - **Answer:**  
@@ -189,6 +207,7 @@ $.35 * .02 + .28 * .03 + .37 * .05 = .341$
 
 ---
 
+Use the following to answer the next 2 questions. The number of cars entering a roadway at a specific exit during the morning rush hour traffic (6AM to 9AM, M-F) is a random variable with an average of 6 cars per minute. Suppose the number of cars entering the roadway is the random variable X. 
 ### **16. Which discrete distribution will appropriately model X?**
 - **Question:** The number of cars entering a roadway at a specific exit during the morning rush hour traffic (6AM to 9AM, M-F) is a random variable with an average of 6 cars per minute. Suppose the number of cars entering the roadway is the random variable X. Which discrete distribution will appropriately model X?  
 - **Answer:**  
@@ -222,7 +241,7 @@ $.35 * .02 + .28 * .03 + .37 * .05 = .341$
   - **d. The function does not integrate to 1 over the sample space.**  
 
 ---
-
+Use for the next 3 questions
 ### **19. What is the cumulative density function?**
 - **Question:** The random variable X is described by the following pdf:  
 $$
@@ -272,6 +291,8 @@ Answer:
 
 ---
 
+Use the following to answer the next 2 questions. 
+The length of time for one individual to be served at a restaurant is a random variable having an exponential distribution with an expected wait time of 4 minutes.
 ### **22. Find the probability that an individual would wait longer than 10 minutes to be served.**
 - **Question:** The length of time for one individual to be served at a restaurant is a random variable having an exponential distribution with an expected wait time of 4 minutes. Find the probability that an individual would wait longer than 10 minutes to be served.  
 - **Answer:**  
@@ -290,6 +311,8 @@ Answer:
 
 ---
 
+Use the following for the next four questions. 
+The Lightning Bolt Electric Car company claims their new car “The Buzzer” can travel on average 170 miles on one charge (𝜇 = 170 𝑚𝑖𝑙𝑒𝑠). It is known that the population distribution associated with the distance per charge in normally distributed with standard deviation of 30 miles. 
 ### **24. Draw the distribution. On the axis indicate the mean and $\pm 1$, $\pm 2$, $\pm 3$ standard deviations away from the mean.**
 - **Question:** The Lightning Bolt Electric Car company claims their new car “The Buzzer” can travel on average 170 miles on one charge ($\mu = 170$ miles). It is known that the population distribution associated with the distance per charge in normally distributed with standard deviation of 30 miles. Draw the distribution. On the axis indicate the mean and $\pm 1$, $\pm 2$, $\pm 3$ standard deviations away from the mean.  
 - **Answer:**  
@@ -339,6 +362,9 @@ Answer:
 
 ---
 
+Use the following to answer the next 4 questions.
+A brewery uses a machine to fill 12 ounce bottles of beer. 
+Occasionally, they take a random sample of bottles to investigate whether the machine is filling the bottles to the specified amount. The distribution to the right represents the ounces of beer per bottle from a random sample of 30 bottles. 
 ### **29. The amount of beer per bottle is a:**
 - **Question:** The amount of beer per bottle is a:  
 - **Answer:**  
@@ -387,6 +413,13 @@ Answer:
 
 ---
 
+Use the following for the next four questions. The Calla Tulip are 
+large tulips that are often included in a tulip bouquet for enhancement 
+benefits. A large nursery grows tulips for florists. The height of the 
+tulip is important in making bouquets. The nursery samples 40 tulips 
+out of their field and measures their height. See the distribution to the 
+right. 
+![[../../Ignored/Pasted image 20250212224907.png]]
 ### **34. The distribution of tulip heights is:**
 - **Question:** The distribution of tulip heights is:  
 - **Answer:**  
@@ -426,7 +459,9 @@ Answer:
   - **Maximum (non-outlier):** F  
 
 ---
-
+---
+### Use the following for the next two questions. The time it takes to heat a microwaveable burrito to an internal 
+temperature of 160℉ is normally distributed with a mean of 65 seconds and a standard deviation of 5 seconds. 
 ### **38. What is the probability it will take less than 60 seconds to heat a burrito to 160°F?**
 - **Question:** The time it takes to heat a microwaveable burrito to an internal temperature of 160°F is normally distributed with a mean of 65 seconds and a standard deviation of 5 seconds. What is the probability it will take less than 60 seconds to heat a burrito to 160°F?  
 - **Answer:**  
@@ -447,11 +482,18 @@ Answer:
 
 ---
 
+### Use the following for questions two questions
+The time it takes to travel between two campuses of a 
+university in a city via shuttle bus takes an average 24 
+minutes. The distribution of all times is positively 
+skewed with a standard deviation of 12. Suppose a 
+random sample of 36 transport times are recorded during 
+a given week
 ### **40. Which plot represents the distribution of sample means for a sample size of 36?**
 - **Question:** Which plot represents the distribution of sample means for a sample size of 36?  
 - **Answer:**  
-  - **a. Plot A**  
-  - b. Plot B  
+  - a. Plot A  
+  - **b. Plot B**  
   - c. Plot C  
   - d. Plot D  
 
@@ -476,7 +518,10 @@ Answer:
   - d. the extent to which the sample results differ systematically from the truth.  
 
 ---
-
+### Use the following to answer the next two questions. An industrial engineer randomly samples 25 observations 
+on the labor time required to produce an order of automobile mufflers using a heavy stamping machine. 
+Historically, this process has had a standard deviation, 𝜎 = 1.52 ℎ𝑜𝑢𝑟𝑠. The sample yielded a mean time of 𝑥̅=
+1.85 ℎ𝑜𝑢𝑟𝑠.
 ### **43. The 95% Confidence Interval for the average labor time required to produce an order of mufflers is:**
 - **Question:** The 95% Confidence Interval for the average labor time required to produce an order of mufflers is:  
 - **Answer:**  
@@ -506,7 +551,13 @@ Answer:
   - d. 28  
 
 ---
-
+### Use the following for the next 3 questions. According to the National Institute on Alcohol Abuse and 
+Alcoholism (NIAAA), and the National Institutes of Health (NIH), 41% of college students nationwide engage 
+in “binge drinking” behavior, having 5 or more drinks in one occasion during the past two weeks. A college 
+president wonders if the proportion of students enrolled at her college that binge drink is lower than the national 
+proportion. In a commissioned study, 462 students are selected randomly from a list of all students enrolled at 
+the college. Of these, 162 admitted to having engaged in binge drinking. 
+46
 ### **46. Based on the results of the test, a 95% confidence interval for the proportion of all students at this college that engage in binge drinking is:**
 - **Question:** Based on the results of the test, a 95% confidence interval for the proportion of all students at this college that engage in binge drinking is:  
 - **Answer:**  
@@ -537,6 +588,11 @@ Answer:
 
 ---
 
+### Use the following to answer the next four questions. Bags of a certain brand of tortilla chips claim to have a 
+net weight of 16 ounces. A consumer advocate group wishes to see if there is evidence that the mean net weight 
+is less than advertised and so intends to test the hypotheses H0: 𝜇 = 16, Ha: 𝜇 < 16. A simple random sample of 
+24 bags has a sample mean of 𝒙̅ = 15.68 and the sample standard deviation to be s = 0.64. 
+49
 ### **49. In this case, which test is appropriate to test the given null and alternative hypotheses?**
 - **Question:** Bags of a certain brand of tortilla chips claim to have a net weight of 16 ounces. A consumer advocate group wishes to see if there is evidence that the mean net weight is less than advertised and so intends to test the hypotheses $H_0: \mu = 16$, $H_a: \mu < 16$. A simple random sample of 24 bags has a sample mean of $\bar{x} = 15.68$ and the sample standard deviation to be $s = 0.64$. In this case, which test is appropriate to test the given null and alternative hypotheses?  
 - **Answer:**  
