@@ -231,20 +231,21 @@ Since this is 6 per minute, it’s 6 occurrences per unit of time. Therefore, it
 
 We use the pmf $P(x) = \frac{\lambda^xe^{-\lambda}}{x!}$.
 $\lambda = 6$ and $P(4 \leq x \leq 6)$
-$$\frac{6^6e^{-6}}{6!}-\frac{6^4e^{-6}}{4!}=.0267$$
-
+$$\frac{6^6e^{-6}}{6!}+\frac{6^5e^{-6}}{5!}+\frac{6^4e^{-6}}{4!}=.4551$$
+Note that we add the probabilities here because we are using the pmf which calculates for $P(X=x)$ (a point/exact) while the cdf calculates for $P(X \leq x)$. 
+We can do `ppois(6, lambda=6) - ppois(3, lambda=6)` if we want to use R and the cdf.
 
 ---
 
 ### **18. Why is this function invalid?**
 - **Question:** Based on the definition of a probability density function, why is this function invalid?  
-  \[
+  $$
   f(y) = 
   \begin{cases} 
   \frac{1}{15} \left( 4 - y \right), & \text{for } 1 \leq y \leq 5 \\
   0, & \text{otherwise}
   \end{cases}
-  \]
+  $$
 - **Answer:**  
   - a. Probability density functions can’t be piece-wise functions.  
   - b. The variable should be x not y.  
