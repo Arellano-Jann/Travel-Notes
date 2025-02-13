@@ -1,6 +1,23 @@
 ## HW 1
 Bayes Theorem
-$$P(A | B) = \frac{P(B | A) P(A)}{P(B)}$$$
+$$P(A | B) = \frac{P(B | A) P(A)}{P(B)}$$
+
+Binomial 
+- pmf
+	- $P(x) = p^x(1-p)^{n-x}$
+- E(x)
+	- $np$
+- V(x)
+	- $np(1-p)$
+Poisson 
+- pmf
+	- $P(x) = \frac{\lambda^xe^{-\lambda}}{x!}$
+- E(x)
+	- $\micro = \lambda$
+- V(x)
+	- $\sigma^2 = \lambda$
+
+
 ## HW 4
 Confidence Interval
 $$CI=X+Z_\sigma \times \frac{\sigma}{\sqrt{n}}$$

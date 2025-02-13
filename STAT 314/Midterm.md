@@ -229,6 +229,11 @@ Since this is 6 per minute, it’s 6 occurrences per unit of time. Therefore, it
   - c. 0.2945  
   - d. 0.1606  
 
+We use the pmf $P(x) = \frac{\lambda^xe^{-\lambda}}{x!}$.
+$\lambda = 6$ and $P(4 \leq x \leq 6)$
+$$\frac{6^6e^{-6}}{6!}-\frac{6^4e^{-6}}{4!}=.0267$$
+
+
 ---
 
 ### **18. Why is this function invalid?**
