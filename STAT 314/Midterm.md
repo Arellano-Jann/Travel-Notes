@@ -303,7 +303,7 @@ Answer:
 
 ---
 
-Use the following to answer the next 2 questions. 
+## Use the following to answer the next 2 questions. 
 The length of time for one individual to be served at a restaurant is a random variable having an exponential distribution with an expected wait time of 4 minutes.
 ### **22. Find the probability that an individual would wait longer than 10 minutes to be served.**
 - **Question:** The length of time for one individual to be served at a restaurant is a random variable having an exponential distribution with an expected wait time of 4 minutes. Find the probability that an individual would wait longer than 10 minutes to be served.  
@@ -312,6 +312,16 @@ The length of time for one individual to be served at a restaurant is a random v
   - **b. 0.08**  
   - c. 0.94  
   - d. None of the above.  
+
+Pay attention where it says EXPECTED wait time. This means expected value
+$E(x)=4$, $\lambda = 1/4$, $x=10$
+$P(x>10) = 1-P(x \leq 10) = 1 - F(10)$ 
+In R, to use the CDF `1-pexp(10, 1/4)` <- this makes more sense because it finds the area to the right of the curve 
+or to use the regular exponential function `exp(-1/4 * 10)`
+
+PDF of exponential $$f(x) = \lambda e^{-\lambda x}$$
+Integrate f(x) to get cdf$$F(x) = 1- e^{-\lambda x}$$
+Add everything up to get $$e^{(-1/4) * 10}= .082$$
 
 
 ---
@@ -472,8 +482,8 @@ right.
 
 ---
 ---
-### Use the following for the next two questions. The time it takes to heat a microwaveable burrito to an internal 
-temperature of 160℉ is normally distributed with a mean of 65 seconds and a standard deviation of 5 seconds. 
+### Use the following for the next two questions. 
+The time it takes to heat a microwaveable burrito to an internal temperature of 160℉ is normally distributed with a mean of 65 seconds and a standard deviation of 5 seconds. 
 ### **38. What is the probability it will take less than 60 seconds to heat a burrito to 160°F?**
 - **Question:** The time it takes to heat a microwaveable burrito to an internal temperature of 160°F is normally distributed with a mean of 65 seconds and a standard deviation of 5 seconds. What is the probability it will take less than 60 seconds to heat a burrito to 160°F?  
 - **Answer:**  
@@ -482,15 +492,24 @@ temperature of 160℉ is normally distributed with a mean of 65 seconds and a st
   - c. 0.68  
   - d. 0.18  
 
+$\micro = 65$, $\sigma = 5$, $z=60$
+normal distribution
+`pnorm(60, 65, 5) = .158`
+
 ---
 
 ### **39. What is the likelihood the average time will be less than 60 seconds?**
 - **Question:** Suppose you have a bag of 4 burritos. Consider this bag to be a random sample of size 4. You cook each of the burritos to 160°F, what is the likelihood the average time will be less than 60 seconds?  
 - **Answer:**  
   - a. 0.157  
-  - **b. 0.029**  
+  - b. 0.029  
   - c. 0.097  
-  - d. 0.023  
+  - **d. 0.023**  
+$n=4$, $\micro = 65$, $\sigma = 5$, $P(x < 60) = .158$
+We find the probability with pnorm using our new standard deviation. You must remember that sample and population standard deviations are different. Always convert.
+We can calculate sample std deviation with $\sigma / \sqrt{n} = 2.5$. 
+Thus `pnorm(60, 65, 2.5) = .0227`
+
 
 ---
 
@@ -537,12 +556,13 @@ Historically, this process has had a standard deviation, 𝜎 = 1.52 ℎ𝑜𝑢
 ### **43. The 95% Confidence Interval for the average labor time required to produce an order of mufflers is:**
 - **Question:** The 95% Confidence Interval for the average labor time required to produce an order of mufflers is:  
 - **Answer:**  
-  - a. (1.25 hours, 2.45 hours)  
-  - **b. (1.35 hours, 2.35 hours)**  
+  - **a. (1.25 hours, 2.45 hours)**  
+  - b. (1.35 hours, 2.35 hours)  
   - c. (1.07 hours, 2.63 hours)  
   - d. (1.22 hours, 2.48 hours)  
 
-
+$$\bar{X}\pm Z_{\sigma/2} \times \frac{\sigma}{\sqrt{n}}$$
+$$1.85\pm 1.96 \times \frac{1.52}{\sqrt{25}}=[1.25416,2.44584]$$
 
 ---
 

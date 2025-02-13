@@ -1,5 +1,11 @@
 Z Critical Value ```qnorm(1-(confidence_interval/2))```
-P(z-score) (never forget to convert to a Z score)`pnorm(z, mean=0, sd=1, lower.tail=TRUE)`
+Normal CDF (never forget to convert to a Z score)`pnorm(z, mean=0, sd=1, lower.tail=TRUE)`
+Poisson CDF `ppois(x)`
+Poisson PMF `dpois(x)`
+Exponential CDF `pexp(x, lambda)`
+Exponential Inverse CDF - find percentiles $x_p$ `qexp(p, lambda)`
+
+
 P Value for ANOVA F Test(confidence, degrees freedom treatment, degrees freedom error) `pf(z, df1, df2)`
 F Value Cutoff(confidence, degrees of freedom num, dof denom) `qf(z, df1, df2)`
 t-critical value `qt(confidence, df)`
