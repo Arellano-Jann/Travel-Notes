@@ -207,11 +207,17 @@ Solar-heat installations successfully reduce the utility bill
 
 ---
 
-Use the following to answer the next 2 questions. The number of cars entering a roadway at a specific exit during the morning rush hour traffic (6AM to 9AM, M-F) is a random variable with an average of 6 cars per minute. Suppose the number of cars entering the roadway is the random variable X. 
+Use the following to answer the next 2 questions. 
+The number of cars entering a roadway at a specific exit during the morning rush hour traffic (6AM to 9AM, M-F) is a random variable with an average of 6 cars per minute. Suppose the number of cars entering the roadway is the random variable X. 
 ### **16. Which discrete distribution will appropriately model X?**
 - **Question:** The number of cars entering a roadway at a specific exit during the morning rush hour traffic (6AM to 9AM, M-F) is a random variable with an average of 6 cars per minute. Suppose the number of cars entering the roadway is the random variable X. Which discrete distribution will appropriately model X?  
 - **Answer:**  
   - **Poisson**
+
+Poisson models occurrences over time
+Binomial models successes over trials (where it’s either yes or no).
+
+Since this is 6 per minute, it’s 6 occurrences per unit of time. Therefore, it’s a poisson structure.
 
 ---
 
