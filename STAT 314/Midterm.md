@@ -530,10 +530,10 @@ a given week
   - d. the extent to which the sample results differ systematically from the truth.  
 
 ---
-### Use the following to answer the next two questions. An industrial engineer randomly samples 25 observations 
+### Use the following to answer the next two questions. 
+An industrial engineer randomly samples 25 observations 
 on the labor time required to produce an order of automobile mufflers using a heavy stamping machine. 
-Historically, this process has had a standard deviation, 𝜎 = 1.52 ℎ𝑜𝑢𝑟𝑠. The sample yielded a mean time of 𝑥̅=
-1.85 ℎ𝑜𝑢𝑟𝑠.
+Historically, this process has had a standard deviation, 𝜎 = 1.52 ℎ𝑜𝑢𝑟𝑠. The sample yielded a mean time of 𝑥̅=1.85 ℎ𝑜𝑢𝑟𝑠.
 ### **43. The 95% Confidence Interval for the average labor time required to produce an order of mufflers is:**
 - **Question:** The 95% Confidence Interval for the average labor time required to produce an order of mufflers is:  
 - **Answer:**  
@@ -541,6 +541,8 @@ Historically, this process has had a standard deviation, 𝜎 = 1.52 ℎ𝑜𝑢
   - **b. (1.35 hours, 2.35 hours)**  
   - c. (1.07 hours, 2.63 hours)  
   - d. (1.22 hours, 2.48 hours)  
+
+
 
 ---
 
