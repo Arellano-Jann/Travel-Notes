@@ -36,6 +36,19 @@ where:
 - $\sigma$ = SD
 - $n$ = sample size
 
+- Find sample size given margin or error
+	- $$(Z_{\sigma/2} \times \frac{\sigma}{ME})^2= n$$
+
+
+Confidence Interval for proportion
+$$CI=\hat{p}\pm Z_{\alpha/2} \times \sqrt{\frac{\hat{p}(1-\hat p)}{n}}$$
+
+- where p is proportion from $\text{sample}/\text{population}$
+- Find Sample Size
+	- $$(\frac{z_{\alpha/2}}{ME})^2\times p(1-p)$$
+Confidence Interval for $\mu$ when $\sigma$ unknown
+$$CI=\bar{X}\pm t_{n-1,\alpha/2} \times \frac{s_x}{\sqrt{n}}$$
+
 Standard Error/Standard Deviation
 - also converts population SD to sample SD.
 $$\frac{\sigma}{\sqrt{n}}$$
@@ -44,6 +57,9 @@ Z Score
 $$\frac{\bar{X}-\micro}{\sigma}$$
 Z Statistic
 $$\frac{\bar{X}-\micro}{\sigma/\sqrt{n}}$$
+
+Hypothesis
+(convincing < .01, moderately suggestive < .05, slightly suggestive < .10)
 ## DA 5
 Z Test Proportion
 - Use: when testing the avg val $p$ from a single population
@@ -57,11 +73,14 @@ Z Critical ($z_{1-\alpha/2}$) (at least for $p$)
 - 90% Confidence - 1.645
 - 95% Confidence - 1.96
 - 99% Confidence - 2.576
+- use always unless not given $\sigma$, then resort to the T Critical
 T Critical
+- use when not given $\sigma$ and instead given $s$, the sample SD
 ![[../../Ignored/Pasted image 20250213090438.png]]
 
-Test Statistic, z statistic
-$$\frac{\hat{p}-p_0}{\sqrt{p_0*(1-p_0)/n}}$$
+Test Statistic
+- Z Stat$$\frac{\hat{p}-p_0}{\sqrt{p_0*(1-p_0)/n}}$$
+- T Stat $$\frac{\bar{x}-\mu_0}{s/\sqrt n}$$
 
 ## HW 6
 deg of freedom (between groups) $$df_{1}=I-1$$

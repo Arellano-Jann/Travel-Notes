@@ -423,7 +423,7 @@ $$\frac{\bar{X}-\micro}{\sigma}=\frac{250-170}{30}=\frac{8}{3}$$
   - c. 309.7 miles  
   - d. 211.2 miles  
 
-`qnorm(95, 170, 30)`
+`qnorm(.95, 170, 30)`
 Shouldn’t this be 230? lol.
 
 ---
@@ -628,6 +628,8 @@ It’s because it’s the sampling distribution.  We can easily elim A and C. B 
 An industrial engineer randomly samples 25 observations 
 on the labor time required to produce an order of automobile mufflers using a heavy stamping machine. 
 Historically, this process has had a standard deviation, 𝜎 = 1.52 ℎ𝑜𝑢𝑟𝑠. The sample yielded a mean time of 𝑥̅=1.85 ℎ𝑜𝑢𝑟𝑠.
+$\sigma = 1.52$
+$n=25$, $\bar{x}=1.85$, $s=1.52/5=.304$
 ### **43. The 95% Confidence Interval for the average labor time required to produce an order of mufflers is:**
 - **Question:** The 95% Confidence Interval for the average labor time required to produce an order of mufflers is:  
 - **Answer:**  
@@ -648,6 +650,12 @@ $$1.85\pm 1.96 \times \frac{1.52}{\sqrt{25}}=[1.25416,2.44584]$$
   - **b. 36**  
   - c. 25  
   - d. 35  
+Margin of error formula
+$$Z_{\sigma/2} \times \frac{\sigma}{\sqrt{n}}$$
+$$1.96 \times \frac{1.52}{\sqrt{n}}=.5$$
+$$1.96 \times \frac{1.52}{.5}=\sqrt n$$
+$$(1.96 \times \frac{1.52}{.5})^2= n = 35.5$$
+
 
 ---
 
@@ -656,17 +664,17 @@ $$1.85\pm 1.96 \times \frac{1.52}{\sqrt{25}}=[1.25416,2.44584]$$
 - **Answer:**  
   - a. 5  
   - b. 6  
-  - **c. 27**  
-  - d. 28  
+  - c. 27  
+  - **d. 28**  
+
+$$(Z_{\sigma/2} \times \frac{\sigma}{ME})^2= n$$
+$$(1.96 \times \frac{40}{15})^2= n=27.31$$
+Note: we ceiling it bc we cant have half a sample unit
 
 ---
-### Use the following for the next 3 questions. According to the National Institute on Alcohol Abuse and 
-Alcoholism (NIAAA), and the National Institutes of Health (NIH), 41% of college students nationwide engage 
-in “binge drinking” behavior, having 5 or more drinks in one occasion during the past two weeks. A college 
-president wonders if the proportion of students enrolled at her college that binge drink is lower than the national 
-proportion. In a commissioned study, 462 students are selected randomly from a list of all students enrolled at 
-the college. Of these, 162 admitted to having engaged in binge drinking. 
-46
+### Use the following for the next 3 questions. 
+According to the National Institute on Alcohol Abuse and Alcoholism (NIAAA), and the National Institutes of Health (NIH), 41% of college students nationwide engage in “binge drinking” behavior, having 5 or more drinks in one occasion during the past two weeks. A college 
+president wonders if the proportion of students enrolled at her college that binge drink is lower than the national proportion. In a commissioned study, 462 students are selected randomly from a list of all students enrolled at the college. Of these, 162 admitted to having engaged in binge drinking. 
 ### **46. Based on the results of the test, a 95% confidence interval for the proportion of all students at this college that engage in binge drinking is:**
 - **Question:** Based on the results of the test, a 95% confidence interval for the proportion of all students at this college that engage in binge drinking is:  
 - **Answer:**  
@@ -674,6 +682,10 @@ the college. Of these, 162 admitted to having engaged in binge drinking.
   - b. 0.318 to 0.384.  
   - c. 0.321 to 0.381.  
   - d. 0.325 to 0.377.  
+
+$$CI=\bar{X}\pm Z_{\sigma/2} \times \sqrt{\frac{\hat{p}(1-\hat p)}{n}}$$
+$$CI=(162/462)\pm 1.96 \times \sqrt{\frac{.35(1-.35)}{462}}$$
+$$CI=.35\pm .0435$$
 
 ---
 
@@ -683,7 +695,9 @@ the college. Of these, 162 admitted to having engaged in binge drinking.
   - a. $H_0: p = 0.41$, $H_a: p > 0.41$  
   - b. $H_0: p < 0.41$, $H_a: p > 0.41$  
   - c. $H_0: p = 0.41$, $H_a: p \neq 0.41$  
-  - **d. $H_0: p = 0.41$, $H_a: p < 0.41$**  
+  - **d. $H_0: p = 0.41$, $H_a: p < 0.41$**  <
+
+Keyword: less than
 
 ---
 
@@ -692,16 +706,18 @@ the college. Of these, 162 admitted to having engaged in binge drinking.
 - **Answer:**  
   - a. There is little evidence to support a conclusion that the proportion of students at this particular college that binge drink is lower than the national proportion of 0.41.  
   - b. There is no evidence that the proportion of binge drinking students at this college is lower than the national proportion of 0.41.  
-  - **c. There is convincing evidence that the proportion of students at this college that binge drink is lower than the national proportion of 0.41.**  
+  - **c. There is convincing evidence that the proportion of students at this college that binge drink is lower than the national proportion of 0.41.**  <
   - d. We can’t reach any reasonable conclusion because the assumptions necessary for a significance test for a proportion are not met in this case.  
+
+Lower than .01 and close to 0 so we say this
 
 ---
 
-### Use the following to answer the next four questions. Bags of a certain brand of tortilla chips claim to have a 
-net weight of 16 ounces. A consumer advocate group wishes to see if there is evidence that the mean net weight 
-is less than advertised and so intends to test the hypotheses H0: 𝜇 = 16, Ha: 𝜇 < 16. A simple random sample of 
-24 bags has a sample mean of 𝒙̅ = 15.68 and the sample standard deviation to be s = 0.64. 
-49
+### Use the following to answer the next four questions. 
+Bags of a certain brand of tortilla chips claim to have a net weight of 16 ounces. A consumer advocate group wishes to see if there is evidence that the mean net weight is less than advertised and so intends to test the hypotheses H0: 𝜇 = 16, Ha: 𝜇 < 16. A simple random sample of 24 bags has a sample mean of 𝒙̅ = 15.68 and the sample standard deviation to be s = 0.64. 
+
+$\mu = 16$
+$n=24$, $\bar{x}=15.68$, $s=.64$
 ### **49. In this case, which test is appropriate to test the given null and alternative hypotheses?**
 - **Question:** Bags of a certain brand of tortilla chips claim to have a net weight of 16 ounces. A consumer advocate group wishes to see if there is evidence that the mean net weight is less than advertised and so intends to test the hypotheses $H_0: \mu = 16$, $H_a: \mu < 16$. A simple random sample of 24 bags has a sample mean of $\bar{x} = 15.68$ and the sample standard deviation to be $s = 0.64$. In this case, which test is appropriate to test the given null and alternative hypotheses?  
 - **Answer:**  
@@ -715,9 +731,16 @@ is less than advertised and so intends to test the hypotheses H0: 𝜇 = 16, Ha:
 - **Question:** The 99% Confidence Interval for the average net weight is:  
 - **Answer:**  
   - a. (14.31 oz.,17.67 oz.)  
-  - b. (15.31 oz.,16.05 oz)  
-  - **c. (15.41 oz.,15.95 oz.)**  
+  - **b. (15.31 oz.,16.05 oz)**  
+  - c. (15.41 oz.,15.95 oz.)  
   - d. (15.46 oz.,15.90 oz.)  
+
+T Crit - 2.51 for df 23, 1 tail
+$\mu = 16$
+$n=24$, $\bar{x}=15.68$, $s=.64$
+$$CI=\bar{X}\pm t_{n-1,\alpha/2} \times \frac{s_x}{\sqrt{n}}$$
+$$CI=15.68\pm 2.51 \times \frac{.64}{\sqrt {24}}$$
+$$CI=15.68\pm .328$$
 
 ---
 
@@ -728,6 +751,8 @@ is less than advertised and so intends to test the hypotheses H0: 𝜇 = 16, Ha:
   - b. we would reject $H_0$ at significance level 0.05 but not at 0.020.  
   - **c. we would reject $H_0$ at significance level 0.025 but not at 0.01.**  
   - d. we would reject $H_0$ at significance level 0.01.  
+
+`t.test(15.68, mu=16, alternative=“less”, conf.level=.99)`
 
 ---
 

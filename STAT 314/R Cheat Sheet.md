@@ -10,8 +10,11 @@ Exponential Inverse CDF - find percentiles $x_p$ `qexp(p, lambda)`
 
 P Value for ANOVA F Test(confidence, degrees freedom treatment, degrees freedom error) `pf(z, df1, df2)`
 F Value Cutoff(confidence, degrees of freedom num, dof denom) `qf(z, df1, df2)`
-t-critical value `qt(confidence, df)`
-- .975 corresponds to 95% confidence
+t-critical value `qt(alpha, df)`
+- .975 corresponds to 95% confidence (for 2 tailed?)
+- alpha is (1-confidence) and (1-confidence)/2 for 2 tailed
+p-values for T test `pt(t-statistic, df)`
+t test `t.test(x, mu=0, alternative=“less”,conf.level=.95)`
 
 ANOVA Summary Example
 ```r
