@@ -14,7 +14,26 @@ t-critical value `qt(alpha, df)`
 - .975 corresponds to 95% confidence (for 2 tailed?)
 - alpha is (1-confidence) and (1-confidence)/2 for 2 tailed
 p-values for T test `pt(t-statistic, df)`
-t test `t.test(x, mu=0, alternative=“less”,conf.level=.95)`
+
+
+t test example w rnorm `t.test(x, mu=0, alternative=“less”,conf.level=.95)`
+```r
+# Given data
+x_bar <- 15.68  # Sample mean
+s <- 0.64       # Sample standard deviation
+n <- 24         # Sample size
+mu0 <- 16       # Hypothesized population mean
+
+# Simulate data using the sample mean and standard deviation
+set.seed(123)  # For reproducibility
+simulated_data <- rnorm(n, mean = x_bar, sd = s)
+
+# Perform the one-sample t-test
+t_test <- t.test(simulated_data, mu = mu0, alternative = "less", conf.level = 0.99)
+
+# Print the results
+t_test
+```
 
 ANOVA Summary Example
 ```r
