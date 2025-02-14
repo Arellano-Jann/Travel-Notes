@@ -190,10 +190,13 @@ $\sigma = \sqrt{.3976} = .631$
 Use the following to answer the next 2 questions. 
 Solar-heat installations successfully reduce the utility bill 
 60% of the time. Suppose 10 houses with solar-heat installations are selected at random and the outcome between houses is independent. Suppose X is the number of houses that successfully reduced the utility bill out of the 10. 
+n = 10, binomial, 60% true, 
 ### **14. Which discrete distribution will appropriately model X?**
 - **Question:** Solar-heat installations successfully reduce the utility bill 60% of the time. Suppose 10 houses with solar-heat installations are selected at random and the outcome between houses is independent. Suppose X is the number of houses that successfully reduced the utility bill out of the 10. Which discrete distribution will appropriately model X?  
 - **Answer:**  
   - **Binomial**
+
+It’s a true or false scenario. Therefore, it’s binomial.
 
 ---
 
@@ -205,9 +208,14 @@ Solar-heat installations successfully reduce the utility bill
   - **c. 0.0403**  
   - d. 0.8429  
 
+n = 10, binomial, 60% true, x = 9/10
+`dbinom(9, 10, .60)`
+$P(x) = p^x(1-p)^{n-x}$
+$P(x) = .6^9(1-.6)^{10-9}$
+
 ---
 
-Use the following to answer the next 2 questions. 
+## Use the following to answer the next 2 questions. 
 The number of cars entering a roadway at a specific exit during the morning rush hour traffic (6AM to 9AM, M-F) is a random variable with an average of 6 cars per minute. Suppose the number of cars entering the roadway is the random variable X. 
 ### **16. Which discrete distribution will appropriately model X?**
 - **Question:** The number of cars entering a roadway at a specific exit during the morning rush hour traffic (6AM to 9AM, M-F) is a random variable with an average of 6 cars per minute. Suppose the number of cars entering the roadway is the random variable X. Which discrete distribution will appropriately model X?  

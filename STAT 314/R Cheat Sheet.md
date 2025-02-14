@@ -1,5 +1,7 @@
 Z Critical Value ```qnorm(1-(confidence_interval/2))```
 Normal CDF (never forget to convert to a Z score)`pnorm(z, mean=0, sd=1, lower.tail=TRUE)`
+Binomial PMF (point) `dpois(x, n, probability)`
+Binomial CDF (cumulative) `dpois(x, n, probability)`
 Poisson CDF `ppois(x)`
 Poisson PMF `dpois(x)`
 Exponential CDF `pexp(x, lambda)`
