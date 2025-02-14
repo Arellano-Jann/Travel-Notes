@@ -267,6 +267,15 @@ Furthermore, the other options are nonsense so it makes sense that this one is t
 
 ---
 ## Use for the next 3 questions
+PMF
+$$
+  f(x) = 
+  \begin{cases} 
+  3x^{-4}, & x > 1 \\
+  0, & \text{otherwise}
+  \end{cases}
+  $$
+
 ### **19. What is the cumulative density function?**
 - **Question:** The random variable X is described by the following pdf:  
 $$
@@ -314,6 +323,13 @@ Answer:
   - b. 1.65  
   - c. 1.96  
   - **d. 1.17**  
+
+$$x_{95} = .95 = 1-x^{-3}$$
+ $$1-.95 = x^{-3} = \frac{1}{x^3} = .05$$
+ $$x = \sqrt[-3]{.05}=2.71$$
+Make sure to remember the negatives when cube rooting and shit. That’ll fuck u up
+ 
+
 
 ---
 

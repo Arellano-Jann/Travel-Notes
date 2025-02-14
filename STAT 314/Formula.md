@@ -1,6 +1,8 @@
 ## HW 1
 Bayes Theorem
 $$P(A | B) = \frac{P(B | A) P(A)}{P(B)}$$
+Percentiles
+$$P(x< x_{p/100})=\frac{p}{100}$$
 
 Binomial 
 - pmf
