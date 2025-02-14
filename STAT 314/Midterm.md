@@ -260,8 +260,13 @@ We can do `ppois(6, lambda=6) - ppois(3, lambda=6)` if we want to use R and the 
   - c. The range of the r.v. can only be from $-\infty$ to $+\infty$.  
   - **d. The function does not integrate to 1 over the sample space.**  
 
+Valid PDF’s:
+- non negativity for all $f(x) \geq 0$
+- total probability must be 1, thus you have to integrate and see if they add up to 1.
+Furthermore, the other options are nonsense so it makes sense that this one is the only one that’s correct.
+
 ---
-Use for the next 3 questions
+## Use for the next 3 questions
 ### **19. What is the cumulative density function?**
 - **Question:** The random variable X is described by the following pdf:  
 $$
@@ -278,7 +283,8 @@ $$
   - **c. $F(x) = 1 - x^{-3}$**  <
   - d. $F(x) = 3x^{-4}$  
 
-
+We integrate here. Remember that you add to the exponent, thus it becomes $x^-3$.
+Furthermore, we integrate fully from $1 < x < \inf$ so that’s where we get the 1 from.
 
 ---
 
