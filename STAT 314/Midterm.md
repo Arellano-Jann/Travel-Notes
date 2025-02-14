@@ -363,24 +363,29 @@ Add everything up to get $$e^{(-1/4) * 10}= .082$$
 
 ---
 
-Use the following for the next four questions. 
+## Use the following for the next four questions. 
 The Lightning Bolt Electric Car company claims their new car “The Buzzer” can travel on average 170 miles on one charge (𝜇 = 170 𝑚𝑖𝑙𝑒𝑠). It is known that the population distribution associated with the distance per charge in normally distributed with standard deviation of 30 miles. 
+$\micro = 170$, $\sigma = 30$, normal dist
 ### **24. Draw the distribution. On the axis indicate the mean and $\pm 1$, $\pm 2$, $\pm 3$ standard deviations away from the mean.**
 - **Question:** The Lightning Bolt Electric Car company claims their new car “The Buzzer” can travel on average 170 miles on one charge ($\mu = 170$ miles). It is known that the population distribution associated with the distance per charge in normally distributed with standard deviation of 30 miles. Draw the distribution. On the axis indicate the mean and $\pm 1$, $\pm 2$, $\pm 3$ standard deviations away from the mean.  
 - **Answer:**  
   \[
   80 \quad 110 \quad 140 \quad 170 \quad 200 \quad 230 \quad 260
   \]
+  $\micro = 170$, $\sigma = 30$, normal dist
 
 ---
 
 ### **25. Using the 68-95-99.7 rule, approximately the middle 95% of the cars fall between which two values?**
 - **Question:** Using the 68-95-99.7 rule, approximately the middle 95% of the cars fall between which two values?  
 - **Answer:**  
-  - a. 110 miles and 230 miles  
-  - **b. 140 miles and 200 miles**  
+  - **a. 110 miles and 230 miles**  
+  - b. 140 miles and 200 miles  
   - c. 150 miles and 190 miles  
   - d. 80 miles and 260 miles  
+
+68 is 1 std, 95 is 2 std, 99.7 is 3 std
+so the range is $[170-30*2, 170+30*2] = [110, 230]$
 
 ---
 
@@ -388,19 +393,25 @@ The Lightning Bolt Electric Car company claims their new car “The Buzzer” ca
 - **Question:** Using the 68-95-99.7 rule, approximately what is the percentage of cars that traveled between 170 and 260 miles on average?  
 - **Answer:**  
   - a. 95%  
-  - **b. 47.5%**  
-  - c. 49.85%  
+  - b. 47.5%  
+  - **c. 49.85%**  
   - d. 68%  
+
+Since we’ve figured out that 97% are from 80 to 260 (3std), and 260 is 3std away from the mean, 170, we can say that $95/3 = 49.85$% of cars travel like that
 
 ---
 
 ### **27. What is the probability a “Buzzer” car will travel more than 250 miles on a single charge?**
 - **Question:** What is the probability a “Buzzer” car will travel more than 250 miles on a single charge?  
 - **Answer:**  
-  - **a. 0.0267**  
+  - a. 0.0267  
   - b. 0.9733  
-  - c. 0.0038  
+  - **c. 0.0038**  
   - d. 0.9962  
+
+We need to normalize it to Z first and put that into `1-pnorm()`. Don’t forget that we’re calculating the are on the right side.
+$$\frac{\bar{X}-\micro}{\sigma}=\frac{250-170}{30}=\frac{8}{3}$$
+`1-pnorm(8/3)` or `1-pnorm(250, mean=170, sd=30)`
 
 ---
 
@@ -412,16 +423,22 @@ The Lightning Bolt Electric Car company claims their new car “The Buzzer” ca
   - c. 309.7 miles  
   - d. 211.2 miles  
 
+`qnorm(95, 170, 30)`
+Shouldn’t this be 230? lol.
+
 ---
 
-Use the following to answer the next 4 questions.
+## Use the following to answer the next 4 questions.
 A brewery uses a machine to fill 12 ounce bottles of beer. 
 Occasionally, they take a random sample of bottles to investigate whether the machine is filling the bottles to the specified amount. The distribution to the right represents the ounces of beer per bottle from a random sample of 30 bottles. 
+![[../../Ignored/Pasted image 20250214173936.png]]
 ### **29. The amount of beer per bottle is a:**
 - **Question:** The amount of beer per bottle is a:  
 - **Answer:**  
   - a. categorical variable.  
   - **b. quantitative variable.**  
+
+This is a a quantity and not a boolean var.
 
 ---
 
@@ -433,6 +450,8 @@ Occasionally, they take a random sample of bottles to investigate whether the ma
   - **c. all 12-ounce beer bottles filled by this machine at the brewery.**  
   - d. all beer bottles from this brewery.  
 
+This is not A because it’s a population and not a sample. Furthermore, C is the most accurate.
+
 ---
 
 ### **31. The amount of beer per bottle has a distribution that is:**
@@ -440,8 +459,10 @@ Occasionally, they take a random sample of bottles to investigate whether the ma
 - **Answer:**  
   - a. perfectly symmetric.  
   - b. bimodal.  
-  - c. moderately skewed to the left.  
-  - **d. moderately skewed to the right.**  
+  - **c. moderately skewed to the left.**  
+  - d. moderately skewed to the right.  
+
+Look at the tail. The lower end is on the left, so it’s skewed left. Remember the tail is the lower part, therefore the tail is where it’s skewed.
 
 ---
 
@@ -450,8 +471,10 @@ Occasionally, they take a random sample of bottles to investigate whether the ma
 - **Answer:**  
   - a. 0.20  
   - b. 0.60  
-  - **c. 0.50**  
-  - d. 0.30  
+  - c. 0.50  
+  - **d. 0.30**  
+
+About 8/30 or 9/30. Looks like they just rounded to .30? lol.
 
 ---
 
@@ -463,14 +486,17 @@ Occasionally, they take a random sample of bottles to investigate whether the ma
   - **c. The Mean.**  
   - d. All measurements would be affected the same.  
 
+Definitely not D. The median is largely unaffected by outliers. The IQR doesn’t really change for outliers like this. The mean is the only one that changes from the outliers.
+
 ---
 
-Use the following for the next four questions. The Calla Tulip are 
-large tulips that are often included in a tulip bouquet for enhancement 
+## Use the following for the next four questions. 
+The Calla Tulip are large tulips that are often included in a tulip bouquet for enhancement 
 benefits. A large nursery grows tulips for florists. The height of the 
 tulip is important in making bouquets. The nursery samples 40 tulips 
 out of their field and measures their height. See the distribution to the 
 right. 
+$\bar{x}=40$
 ![[../../Ignored/Pasted image 20250212224907.png]]
 ### **34. The distribution of tulip heights is:**
 - **Question:** The distribution of tulip heights is:  
@@ -479,6 +505,8 @@ right.
   - **b. Right-skewed.**  
   - c. Left-skewed.  
   - d. symmetric.  
+
+True. Tail is on the right.
 
 ---
 
@@ -490,6 +518,8 @@ right.
   - c. Uniform distribution  
   - d. Poisson distribution  
 
+Poisson is events over time so it’s def not that one. Binomial is boolean. Uniform is 1 straight line. Therefore, we say this is gamma like.
+
 ---
 
 ### **36. True or False. Based on the shape of the distribution, we would expect the median to be larger than the mean.**
@@ -497,6 +527,8 @@ right.
 - **Answer:**  
   - a. True  
   - **b. False**  
+
+I’d say true because the middle of the graph looks to be above the highest bar. Obviously this is false? Why? Is it because in gamma dist, skewed left, the mean is larger than the median?
 
 ---
 
@@ -530,6 +562,12 @@ normal distribution
 
 ### **39. What is the likelihood the average time will be less than 60 seconds?**
 - **Question:** Suppose you have a bag of 4 burritos. Consider this bag to be a random sample of size 4. You cook each of the burritos to 160°F, what is the likelihood the average time will be less than 60 seconds?  
+	- $n=4$, sample size
+	- $\bar{x}=60$, this is not 4 because sample and $\mu$ have to be in the same units. sample meann
+	- $\mu=65$
+	- $\sigma=5$
+	- $\sigma_x=4/\sqrt{5}$, this is the formula for converting population sigma to sample sigma
+	- I would get this wrong again. Make sure to keep noticing if something is population or sample. Keep track of the units and use the correct symbols. They’re there for a reason.
 - **Answer:**  
   - a. 0.157  
   - b. 0.029  
@@ -550,6 +588,8 @@ minutes. The distribution of all times is positively
 skewed with a standard deviation of 12. Suppose a 
 random sample of 36 transport times are recorded during 
 a given week
+$\mu = 24$, $\sigma=12$, positively skewed gamma
+$n=36$, $s=2$
 ### **40. Which plot represents the distribution of sample means for a sample size of 36?**
 - **Question:** Which plot represents the distribution of sample means for a sample size of 36?  
 - **Answer:**  
@@ -558,15 +598,20 @@ a given week
   - c. Plot C  
   - d. Plot D  
 
+~~Why is this Plot B? I just simply can’t agree. It’s plot C for me. Is it because it’s a dist of sample means and not the actual data?~~
+It’s because it’s the sampling distribution.  We can easily elim A and C. B and D are the hard parts. It’s B because D takes the population SD and that’s just not right. If we wanna be accurate, we can do $\sigma_x/\sqrt{n} = 12/6 = 2$. This gives us our new sample SD. Again, remember sample vs population.
+
 ---
 
 ### **41. What is the likelihood the sample mean from the sample 36 transport times is greater than 30 minutes?**
-- **Question:** What is the likelihood the sample mean from the sample 36 transport times is greater than 30 minutes?  
+- **Question:** What is the likelihood the sample mean from the 36 sample transport times is greater than 30 minutes?  
 - **Answer:**  
   - a. 0.99865  
   - b. 0.50000  
   - c. 0.69146  
   - **d. 0.00135**  
+
+`1-pnorm(30, mean=24, sd=2)`
 
 ---
 

@@ -36,7 +36,8 @@ where:
 - $\sigma$ = SD
 - $n$ = sample size
 
-Standard Error
+Standard Error/Standard Deviation
+- also converts population SD to sample SD.
 $$\frac{\sigma}{\sqrt{n}}$$
 
 Z Score
