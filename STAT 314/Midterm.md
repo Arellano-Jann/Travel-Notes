@@ -880,3 +880,9 @@ For a 95% confidence interval, $[14.464, 18.096]$
 	2) $\bar x=.16$, $s=.0423$
 	3)  $$\frac{\hat p - p}{\sqrt {(\hat{p}(1-p))/n)}}$$
 	4)  $$\frac{.2 - .14}{\sqrt {({.14}(1-.14))/75}}$$
+	5) `pnorm()`
+4) CI
+	1) $n=120$, $p=77/120=.6417$
+	2) $$CI=\hat{p}\pm Z_{\alpha/2} \times \sqrt{\frac{\hat{p}(1-\hat p)}{n}}$$
+	3) $$CI=.6417\pm 2.576 \times \sqrt{\frac{.6417(1-.6417)}{120}}$$
+	4) $$CI=.6417\pm .1125$$
