@@ -6,7 +6,7 @@ $$P(x< x_{p/100})=\frac{p}{100}$$
 
 Binomial 
 - pmf
-	- $P(x) = p^x(1-p)^{n-x}$
+	- $$P(k)=(\frac{n!}{k!n!})(p)^k(1-p)^{n-k}$$
 - E(x)
 	- $np$
 - V(x)

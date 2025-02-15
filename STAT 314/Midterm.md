@@ -886,3 +886,23 @@ For a 95% confidence interval, $[14.464, 18.096]$
 	2) $$CI=\hat{p}\pm Z_{\alpha/2} \times \sqrt{\frac{\hat{p}(1-\hat p)}{n}}$$
 	3) $$CI=.6417\pm 2.576 \times \sqrt{\frac{.6417(1-.6417)}{120}}$$
 	4) $$CI=.6417\pm .1125$$
+5) -
+6) Probabiltiy
+	1) A = .6, B = .2, AUB = .1, C = .3
+	2) .6+.2-.1
+7) Crystal Binomial
+	1) $p=.05$
+	2) $n=15$, $k=3$
+	3) $$(\frac{n!}{k!n!})(p)^k(1-p)^{n-k}$$
+	4) $$(\frac{15!}{3!12!})(.05)^3(1-.05)^{15-3}=.0307$$
+8) CI + Hypothesis
+	1) Hypothesis $\mu=.15$
+	2) $n=175$, $\bar x = .164$, $s=.06$
+	3) $$CI=\bar{X}\pm t_{n-1,\alpha/2} \times \frac{s_x}{\sqrt{n}}$$
+	4) $$CI=.164\pm t_{175-1,\alpha/2} \times \frac{.06}{\sqrt{175}}$$
+	5) `qt((1-.99)/2, 175)` = -2.6
+	6) $$CI=.164\pm 2.6 \times \frac{.06}{\sqrt{175}}$$
+	7) $$CI=.164\pm .01179$$
+	8) T Stat $$\frac{\bar{x}-\mu_0}{s/\sqrt n}$$
+	9) T Stat $$\frac{.164-.15}{.06/\sqrt {175}}=3.08$$
+
