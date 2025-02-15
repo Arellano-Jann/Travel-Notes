@@ -753,6 +753,34 @@ $$CI=15.68\pm .328$$
   - d. we would reject $H_0$ at significance level 0.01.  
 
 `t.test(15.68, mu=16, alternative=“less”, conf.level=.99)`
+.
+Sample size: n = 24
+
+Sample mean: x = 15.68
+
+Sample standard deviation: s = 0.64
+
+Hypothesized population mean: 10 = 16
+
+Significance levels to check: 0.10, 0.05, 0.025, 0.01
+
+t =15.68-16/0.64 sqrt 24
+
+t = -.32/.1306 =-2.45
+
+df =24-1=23
+
+a = 0.025, t = 2.069, -2.45 is less than -2.069: Reject Ho
+
+We would reject Ho at significance level 0.025 but not at 0.01.
+
+|                        |                                 |
+| ---------------------- | ------------------------------- |
+| Significance Level (a) | One-Tailed Critical t (df = 23) |
+| a = 0.10               | t = 1.319                       |
+| a = 0.05               | t =1.714                        |
+| a = 0.025              | t = 2.069                       |
+| a = 0.01               | t = 2.500                       |
 
 ---
 
