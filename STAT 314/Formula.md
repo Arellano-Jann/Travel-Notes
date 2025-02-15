@@ -54,7 +54,9 @@ Standard Error/Standard Deviation
 $$\frac{\sigma}{\sqrt{n}}$$
 
 Z Score
-$$\frac{\bar{X}-\micro}{\sigma}$$
+- $$\frac{\bar{X}-\micro}{\sigma}$$
+- $$\frac{\hat p - p}{\sqrt {(\hat{p}(1-p))/n)}}$$
+
 Z Statistic
 $$\frac{\bar{X}-\micro}{\sigma/\sqrt{n}}$$
 

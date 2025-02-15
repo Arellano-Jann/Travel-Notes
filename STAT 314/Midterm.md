@@ -867,3 +867,16 @@ For a 95% confidence interval, $[14.464, 18.096]$
 - **Question:** **Summary:** There is convincing evidence that the average length of Lionfish near Florida is greater than 13.5 inches (alternative hypothesis). We reject the null hypothesis at the 0.05 significance level (p-value = 0.002). The 95% confidence interval for the mean length is (14.46 inches, 18.10 inches), and the point estimate is 16.27 inches, indicating that the true mean length is likely between 14.46 and 18.10 inches.
 - **Answer:**  
   - **Answer:** There is convincing evidence the average length of Lionfish near Florida is greater than 13.5 inches. The sample estimates the average Lionfish to be 16.27 inches with a 95% confidence interval from 14.46 inches to 18.10 inches. The null hypothesis is rejected. The one-sided t-test resulted in a significant p-value of 0.002 from a test statistic of 3.16 with 24 df.
+
+
+
+
+
+
+# SCRATCH
+
+3) Sampling Dist
+	1) Proportion, $p=.16$, $n=75$
+	2) $\bar x=.16$, $s=.0423$
+	3)  $$\frac{\hat p - p}{\sqrt {(\hat{p}(1-p))/n)}}$$
+	4)  $$\frac{.2 - .14}{\sqrt {({.14}(1-.14))/75}}$$
