@@ -3,7 +3,7 @@ Bayes Theorem
 $$P(A | B) = \frac{P(B | A) P(A)}{P(B)}$$
 Percentiles
 $$P(x< x_{p/100})=\frac{p}{100}$$
-
+Notes: pdf -> cdf we integrate
 Binomial 
 - pmf
 	- $$P(k)=(\frac{n!}{k!n!})(p)^k(1-p)^{n-k}$$

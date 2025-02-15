@@ -905,4 +905,7 @@ For a 95% confidence interval, $[14.464, 18.096]$
 	7) $$CI=.164\pm .01179$$
 	8) T Stat $$\frac{\bar{x}-\mu_0}{s/\sqrt n}$$
 	9) T Stat $$\frac{.164-.15}{.06/\sqrt {175}}=3.08$$
+9) Random Var
+	1) CDF $$F(x)=\frac{1}{5}(2x^3+3x^2)$$
+	2) PDF $$\frac{1}{5}(6x^2+6x)$$
 
