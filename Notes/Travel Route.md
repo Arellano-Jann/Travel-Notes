@@ -69,11 +69,15 @@ Athens, Greece, Sat Feb 6 2:55, Tue Feb 10, Xtrain, you can go across the island
 
 Istanbul, Turkey, Mon Feb 10, Fri Feb 14 14:15, Air Cairo w Checked Bag, 77E
 Cairo, Egypt, Fri Feb 14 15:25, Tue Feb 18, Jazeera Airways w Extra, 176E
-Tbilisi, Georgia, Tue Feb 18, Fri Feb 21, Fly, 98E,
-Stockholm, Sweden, Feb 21, Feb 21, Train, 30E
-Goteburg, Sweden, Feb 21, Feb 24, Train, 30E
-Stockholm, Sweden, Feb 24, Feb 25, Fly, 46E
-Barcelona, Spain, Feb 25, Mar 6
+Madrid, Spain, Wed Feb 19, Wed Feb 19, Fly, 98E,
+Barcelona, Spain, Wed Feb 19, Wed Feb 26
+
+Stockholm, Sweden, Wed Feb 26, Thu Feb 27, Train, 30E
+Goteburg, Sweden, Thu Feb 27, Mon Mar 3, Train, 30E
+Stockholm, Sweden, Mon Mar 3, Mon Mar 3, Fly, 46E
+
+Tbilisi, Georgia, Mon Mar 3, Thu Mar 6
+Dubai Mumbai New Delhi, UAE India, Mar 6, Mar 9
 
 **ASIA**
 GYD, Azerbaijan, Fri Feb 21, Mon Feb 24, 71E, Hopefully change this to move dubai into the weekend
