@@ -76,9 +76,9 @@ Stockholm, Sweden, Wed Feb 26, Thu Feb 27, Train, 30E
 Goteburg, Sweden, Thu Feb 27, Mon Mar 3, Train, 30E
 Stockholm, Sweden, Mon Mar 3, Mon Mar 3, Fly, 46E
 
-XTbilisi, Georgia, Mon Mar 3, Thu Mar 6 00:35, IndiGo, $197
-XNew Delhi, India, Mar 6 7:00, Mar 9 17:05, Thai AirAsia, $104
-XBangkok, Thailand, Mar 9 22:45, Fri Mar 14 17:00, Jetstar/Thai Lion Air, $42
+Tbilisi, Georgia, Mon Mar 3, Thu Mar 6 00:35, IndiGo, $197
+New Delhi, India, Mar 6 7:00, Mar 9 17:05, Thai AirAsia, $104
+Bangkok, Thailand, Mar 9 22:45, Fri Mar 14 17:00, Jetstar/Thai Lion Air, $42
 XSingapore, Singapore, Mar 15 20:30, Mon Mar 17 22:40, Spring, $120
 Shanghai, China, Tue Mar 18 3:45, Tue Mar 25, Spring, 
 
