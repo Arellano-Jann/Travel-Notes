@@ -37,6 +37,11 @@ Overall, the conditions are somewhat met. The sampling method is unknown so we s
 >Calculate: 
 a. (1 point) From the summary statistics calculate the test statistic “by hand”. Show work. You must show how the calculation for the test statistic is done (it is not enough to just show R output for this question).  
 
+2 Sample T Stat $$
+\frac{\bar{x}_1 - \bar{x}_2}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}
+$$
+$$\frac{\bar{x}_1 - \bar{x}_2}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}
+$$
 
 
 > b. (1 point) State the degrees of freedom. You may choose conservative or Satterthwaite. Either are okay.   
