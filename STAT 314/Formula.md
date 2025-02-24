@@ -62,6 +62,12 @@ $$\frac{\bar{X}-\micro}{\sigma/\sqrt{n}}$$
 
 Hypothesis
 (convincing < .01, moderately suggestive < .05, slightly suggestive < .10)
+
+4 Part Conclusion
+- There is convincing evidence that the average abv of craft beers is different from 5%.
+- Since the p-val is below the significance level of .01, at $3.55*10^{-5}$, we reject the null hypothesis.
+- With a 95% confidence interval, we can estimate that the average abv of craft beers is between 5.407 and 6.08. 
+- Since 5 is below these values, we can safely say that the average abv of craft beers is different from 5%. In fact, we can say that the avg abv of craft beers is greater than 5% given that our confidence interval values are above 5%.
 ## DA 5
 Z Test Proportion
 - Use: when testing the avg val $p$ from a single population
@@ -83,6 +89,14 @@ T Critical
 Test Statistic
 - Z Stat$$\frac{\hat{p}-p_0}{\sqrt{p_0*(1-p_0)/n}}$$
 - T Stat $$\frac{\bar{x}-\mu_0}{s/\sqrt n}$$
+## DA6 
+T Procedure for Different Means
+- Matched Pair T Stat
+- 2 Sample
+	- Test Statistic$$\frac{\bar{x}_1 - \bar{x}_2 -\delta}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}$$
+	- Confidence Interval $$(\bar x_1 - \bar x_2)\pm(t_{v,a/2)})(\sqrt{ \frac{s_1^2}{n_1} + \frac{s_2^2}{n_2} })$$
+	- t crit
+		- 2 tailed - 95% = .975
 
 ## HW 6
 deg of freedom (between groups) $$df_{1}=I-1$$
