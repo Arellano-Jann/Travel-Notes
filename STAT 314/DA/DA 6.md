@@ -13,7 +13,7 @@ x Label - Cost in dollars
 
 > b. (2 points) Describe the distribution in context. Is there visual evidence the average annual fuel cost is different between the automatic and manual vehicles? Explain.   
 
-
+The median is quite different, visually, by about 300 or so. As for the 1QR and 3QR, the 1QR is relatively close while the 3QR is also different by about 300 or so. This tells us that the average fuel cost is different between auto and manual trans. The manual transmission is typically cheaper while the auto is typically more expensive.
 
 > c. (2 points) Provide an organized table of the summary statistics. Include the sample means, standard deviations and sample sizes for each group. Round to nearest whole number. 
 
@@ -36,6 +36,8 @@ Overall, the conditions are somewhat met. The sampling method is unknown so we s
 
 >Calculate: 
 a. (1 point) From the summary statistics calculate the test statistic “by hand”. Show work. You must show how the calculation for the test statistic is done (it is not enough to just show R output for this question).  
+
+
 
 > b. (1 point) State the degrees of freedom. You may choose conservative or Satterthwaite. Either are okay.   
 
