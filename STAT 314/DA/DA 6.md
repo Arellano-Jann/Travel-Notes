@@ -100,17 +100,24 @@ This means that on average, automatic cars have $207 higher costs than manual ca
 > Part 3. (8.5 points) ANOVA   
   The General Social Survey collects data on demographics, education, and work, among many other characteristics of US residents. Using ANOVA, we can consider educational attainment levels for all 1,172 respondents at once. Below are the distributions of hours worked by educational attainment and relevant summary statistics that will be helpful in carrying out this analysis. 
 
-
 > a. (2 points) Write the null and alternative hypotheses for evaluating whether the average number of hours worked varies across the five groups.   
+
+Null Hypothesis$$\mu_1=\mu_2=\mu_3=\mu_4=\mu_5$$
+Alt Hypothesis: At least 2 means differ
 
 > b. (1.5 points) Using the information provided, assess whether the following conditions necessary to accurately perform an ANOVA F test are met:
 
 > i. (0.5 point) Are the observations in the study independent?
 
+Yes they are
+
 > ii. (0.5 point) Are the sample sizes sufficiently large? (Hint: the n row of the table above provides the sample sizes of each group.)
+
+They are big yes. By CLT, we can conclude it follows a normal distribution. Range from 97 to 546
 
 > iii. (0.5 point) Is the variation in the groups about equal from one group to the next? (Hint: use the spread of the boxplots and standard deviation values from the table to assess this condition.)
 
+Yes it is. The standard deviations of each group is about the same with each other with minor differences. Furthermore, the box plots seems to occupy around the same spaces/ranges as the others.
   
 > To assess whether there is a significant difference in the average number of hours worked between one or more of the groups, we need to determine the mean squares between groups (MSTr) and the mean squares within groups (MSE). Each of these values has an associated degrees of freedom. 
 • The degrees of freedom associated with the MSTr are
@@ -118,6 +125,20 @@ This means that on average, automatic cars have $207 higher costs than manual ca
 
 > c. (1 point) An ANOVA was performed in R. The estimate for the mean squares between groups is MSTr = 501.54 and the resulting F statistic is equal to 2.189. Determine the average variation within each group. That is, calculate the MSE. 
 
+$$F=\frac{MSTr}{MSE}$$
+$$MSE=\frac{MSTr}{F}=\frac{501.54}{2.189}=229.118$$
+
+
 > d. (2 points) Using the F statistic from the previous question (c.) and the two values for the degrees of freedom listed above, calculate the p-value for this test. 
 
-> e. (2 points) Using the p-value calculated in question 5, write a conclusion for this ANOVA F test using a significance level of . (Hint: your conclusion should include a statement of evidence in favor of the alternative and a statement as to whether the null hypothesis is rejected or not.)
+`1-pf(2.189, 4, 1167)`= .068
+
+> e. (2 points) Using the p-value calculated in question 5, write a conclusion for this ANOVA F test using a significance level of 0.05. (Hint: your conclusion should include a statement of evidence in favor of the alternative and a statement as to whether the null hypothesis is rejected or not.)
+
+It does not say the significance level i’m supposed to use so I’m gonna just use .05. 
+
+There is slightly suggestive evidence that at least 2 means differ.
+We would reject the null hypothesis since the significance level is less than the p-value, that is .05 < .068.
+
+
+
