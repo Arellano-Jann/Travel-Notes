@@ -90,14 +90,18 @@ attach(examdata)
 #      e.	Be able to use the regression equation to predict the response variable for a given value of 
 #         the explanatory variable.
 # R calculate the predicted Final value for a value of Midterm:
-  predict(mod, data.frame(x = xnew)) #note xnew is the new value to be predicted. 
+  # Using the predict function and extracting only the value
+  predicted_value <- predict(mod, data.frame(Midterm = 84))
+  cat("Predicted Final score for Midterm = 84:", predicted_value, "\n")
 
 #      f.	Calculate Confidence and Prediction Intervals for the response when Midterm= xnew. 
 # R Calculate a Confidence Interval for the response:
-  predict(mod, data.frame(x = xnew), interval = "confidence", level = 0.95) #note xnew is the new value to be predicted. 
+  ci <- predict(mod, data.frame(Midterm = 84), interval = "confidence", level = 0.95)
+  cat("Confidence Interval for Midterm = 84:", ci[1], "[", ci[2], ",", ci[3], "]\n")
 
   # R Calculate a Prediction Interval for the response:
-  predict(mod, data.frame(x = xnew), interval = "prediction", level = 0.95) #note xnew is the new value to be predicted. 
+  pi <- predict(mod, data.frame(Midterm = 84), interval = "prediction", level = 0.95)
+  cat("Prediction Interval for Midterm = 84:", pi[1], "[", pi[2], ",", pi[3], "]\n") 
 
 
-```
+```r
