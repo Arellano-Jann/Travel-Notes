@@ -16,23 +16,40 @@ As midterm grades are higher, the final grades are also higher. They follow a ve
 
 > a. (3 points) Using R, calculate the least squares regression line that predicts final exam scores from midterm exam scores for ST314 students. Paste the R output for the model summary. Separately, state the least squares regression line (model) using statistical notation. Only pasting your R output without reporting the least squares regression line will not earn you points. 
 
-$$y=mx+b$$
-$$y=mx+b$$
+$$\hat y=(r\frac{s_y}{s_x})x+b_0$$
+$$y=.622x+30.197$$
 
 ![[../../../Ignored/IMG_2970.jpeg]]
 
 > b. (4 points) Plot the residuals for the model. Include a reference line at 0. Include your plot in your submission. Check the linearity, normality and constant variation conditions using the residual plot. State why each condition is met or why it is not met. 
 
+Linearity: Yes, There is no U shape or obvious curves in the plot
+Normality: Yes, There seems to be random scatter of points above and below the reference line.
+Independent: Yes, We assume this. Furthermore, it’s all different students so it’s implied also.
+Constant Variation: No, The scatterplot does have a slight funnel shape from the right side.
+
 ![[../../../Ignored/IMG_2969.jpeg]]
 
 > c. (4 points) Using your linear model, predict what the final score would be for a student who received a 84grade on the midterm, on average.
+
+$$y=.622(84)+30.197$$
+$$y=82.45$$
 
 > Part 3. Is your model a good fit? Use your R output from the model in Part 2a. From the output, is there statistical evidence midterm exam score is a significant predictor of final exam score? Use a significance level of 0.05. 
 
 > a. (2 points) State the null and alternative hypothesis for the individual t test on the slope. 
 
+Null Hypothesis: No relationship between x and Y
+Alternative Hypothesis: There is a relationship between x and Y.
+
 > b. (2 points) State the test statistic, degrees of freedom and p-value from the output. 
 
+Test Statistic: 578.4
+DF: 1 and 850 DF
+P-value: 2.2e-16 (about 0)
+
 > c. (2 points) Make a conclusion. Include context, a statement in terms of the alternative and whether to reject the null based on the level of significance.   
+
+
 
 > d. (2 points) Calculate the 95% confidence interval for the slope. Interpret the point and interval estimate
