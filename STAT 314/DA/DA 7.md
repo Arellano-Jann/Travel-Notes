@@ -39,8 +39,8 @@ $$y=82.45$$
 
 > a. (2 points) State the null and alternative hypothesis for the individual t test on the slope. 
 
-Null Hypothesis: No relationship between x and Y
-Alternative Hypothesis: There is a relationship between x and Y.
+Null Hypothesis: There is no relationship between midterm and final grades
+Alternative Hypothesis: There is a relationship between midterm and final grades
 
 > b. (2 points) State the test statistic, degrees of freedom and p-value from the output. 
 
@@ -50,6 +50,15 @@ P-value: 2.2e-16 (about 0)
 
 > c. (2 points) Make a conclusion. Include context, a statement in terms of the alternative and whether to reject the null based on the level of significance.   
 
+There is convincing evidence that there is a relationship between midterm and final grades. Since the p-val is below the significance level of .05, at 2.2e-16 (which) is almost 0, we reject the null hypothesis. As a students midterm grade rises, then their projected final grade would also rise in a linear relationship.
 
+Note that we do not state anything about the confidence interval in this question since it does not state anything about it and the conf interval portion is on the next part (d).
 
 > d. (2 points) Calculate the 95% confidence interval for the slope. Interpret the point and interval estimate
+
+This does not say whether we should calculate by hand or not, therefore, we are going to be taking it from the code (since there is code to calculate it for us, I’ll assume we are supposed to do that). 
+
+$$b_1\pm(t_{n-(k+1),\alpha/2})(SE_{b1})$$
+$$.62\pm2.01(.026)$$
+
+The 95% confidence interval for the slope is [.5714, .6729]. This means that the final grade increases by a minimum of .57 points to a maximum of .67 points per point scored on the midterm. The point estimate, .62, is the average point increase per point scored on the midterm. While the interval estimate, about .05, is how much that could differ depending on a specified confidence interval, in this case 95%. 

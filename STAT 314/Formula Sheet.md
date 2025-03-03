@@ -119,7 +119,9 @@ $$F=\frac{MSTr}{MSE}$$
 ## DA 7
 Population Regression Equation
 $$Y=\beta_0+\beta_1x+\epsilon$$
-
+Confidence interval for a slope
+$$b_1\pm(t_{n-(k+1),\alpha/2})(SE_{b1})$$
+- $SE_{b1}$ is a complicated equation so we don’t care.
 ## HW 8
 SST Total Sum Of Squares
 $$SST=SSR + SSE$$
