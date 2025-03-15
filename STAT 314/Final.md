@@ -43,7 +43,7 @@ Answer: F. One Sample T Test
   - **D. Single-factor ANOVA**
 
 Question 4 - Lesson 41: Comparing Multiple Means: Single Factor ANOVA
-Solution: We do a single factor ANOVA because there are 4 groups/brands to be tested with multiple samples tested per group. This aligns with a single factor ANOVA because we test for differences across the groups.
+Solution: We do a single factor ANOVA because there are 4 groups/brands to be tested with multiple samples tested per group. All the groups are independent of each other and follow CLT. This aligns with a single factor ANOVA because we test for a difference in the averages across the groups.
 Answer: D. Single Factor ANOVA
 
 ---
