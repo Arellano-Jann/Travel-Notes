@@ -17,9 +17,9 @@ Answer:
 - **Answer:**  
   - **F. One Sample t test**
 
-Question 1 - Lesson 3: Conditional Probability
-Solution:
-Answer:
+Question 1 - Lesson 36: Comparative Experimental Designs
+Solution: She can use the one sample T Test because there is only one population here, the college students. Furthermore, we use the t test because we are trying to figure out the budget (the mu/average). Also, we are not given a standard deviation thus we proceed with a t test.
+Answer: F. One Sample T Test
 
 ---
 
@@ -42,9 +42,9 @@ Answer:
 - **Answer:**  
   - **D. Single-factor ANOVA**
 
-Question 4 - Lesson 3: Conditional Probability
-Solution:
-Answer:
+Question 4 - Lesson 41: Comparing Multiple Means: Single Factor ANOVA
+Solution: We do a single factor ANOVA because there are 4 groups/brands to be tested with multiple samples tested per group. This aligns with a single factor ANOVA because we test for differences across the groups.
+Answer: D. Single Factor ANOVA
 
 ---
 
