@@ -17,6 +17,10 @@ Answer:
 - **Answer:**  
   - **F. One Sample t test**
 
+Question 1 - Lesson 3: Conditional Probability
+Solution:
+Answer:
+
 ---
 
 ### **2. Matching test letter: _____**
@@ -37,6 +41,10 @@ Answer:
 - **Question:** The lumen output is measured on 6 light bulbs each for 4 different brands of comparable bulbs. A contractor is interested in finding whether there is a significant difference in the average lumen output for the different bulb brands. What type of procedure would you recommend?  
 - **Answer:**  
   - **D. Single-factor ANOVA**
+
+Question 4 - Lesson 3: Conditional Probability
+Solution:
+Answer:
 
 ---
 
@@ -204,6 +212,10 @@ Answer:
 - **Question:** Describe the side-by-side boxplot. Include a comparison of the two groups, the center, shape, and spread of each.  
 - **Answer:**  
   - Board B looks to have an overall higher weight, on average, in comparison to board A. The variability of B also looks to be more for board B than board A. Board A weights look to be somewhat symmetric, yet board B weights have a longer negative tail.  
+
+Question 22 - Lesson 3: Conditional Probability
+Solution:
+Answer:
 
 ---
 
