@@ -213,9 +213,8 @@ Answer: D. Single Factor ANOVA
 - **Answer:**  
   - Board B looks to have an overall higher weight, on average, in comparison to board A. The variability of B also looks to be more for board B than board A. Board A weights look to be somewhat symmetric, yet board B weights have a longer negative tail.  
 
-Question 22 - Lesson 3: Conditional Probability
-Solution:
-Answer:
+Question 22 - Lesson 22: Outliers and the Boxplot
+Solution and Answer: Board B has a higher average weight as seen by the 1QR and 3QR being higher than the median of Board A. The whiskers of board a are symmetric while board B has a much larger negative tail, it spans from 225 to 400. Board B’s plot encompasses almost the whole range. Also board A seems to have a lower median in comparison to its 1QR and 3QR while board B seems to have a higher median. This means that the weights are usually lower for board A in its range, while the opposite is true for Board B. Of course, the median is different for both with Board A being 300 and Board B being 340.
 
 ---
 
